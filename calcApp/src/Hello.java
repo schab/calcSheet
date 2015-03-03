@@ -1,3 +1,5 @@
+import javax.swing.*;
+import java.awt.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -11,8 +13,13 @@ public class Hello {
 
     public static void main ( String args[] ){
 
-       
+
         log.log(Level.OFF, helloMsg);
+
+        JFrame jFrame = new JFrame();
+        jFrame.setSize(200,200);
+        jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        jFrame.setVisible(true);
 
 
 
