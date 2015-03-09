@@ -63,3 +63,13 @@ Wymagania niefunkcjonalne:
 	- Zmiana kolorów
 	- Zmiana rozmiaru
 	- Zmiana opisów
+	
+- Wydajność aplikacji:
+- zastosowanie programowania obiektowego
+	- skrócenie kodu poprzez ponowne wykorzystywanie klas i metod
+- nie wykonywanie zbędnych obliczeń
+- jak najmniejsza ilość zmiennych 
+- wykorzystywanie w dużej mierze zmiennych lokalnych
+- jak najmniejszy rozmiar aplikacji
+- optymalizacja kodu
+- wykorzystanie najwydajniejszych dostępnych algorytmów	
