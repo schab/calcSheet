@@ -73,3 +73,11 @@ Wymagania niefunkcjonalne:
 - jak najmniejszy rozmiar aplikacji
 - optymalizacja kodu
 - wykorzystanie najwydajniejszych dostępnych algorytmów	
+
+- Intuicyjny interfejs:
+	- wykorzystanie standardowych ikon do przycisków np. dyskietka jako zapis
+	- użycie skrótów klawiszowych np. Ctrl + s jako zapis
+	- menu kontekstowe
+	- pasek statusu wyświetlający wszelkie zmiany stanu programu
+	- plik pomocy
+	- standaryzacja
