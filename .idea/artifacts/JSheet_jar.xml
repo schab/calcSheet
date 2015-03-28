@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JSheet:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JSheet_jar</output-path>
+    <root id="archive" name="JSheet.jar">
+      <element id="module-output" name="JSheet" />
+    </root>
+  </artifact>
+</component>
