@@ -1,5 +1,3 @@
-package spread;
-
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.event.*;
@@ -70,8 +68,30 @@ public class SpreadSheet extends JTable {
 
 	frame.getContentPane().add(sp.getScrollPane());
 	frame.pack();
+
+
+
+
 	frame.setVisible(true);
-	
+
+        try {
+            new Thread().sleep(1500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        int col = sp._model.getColumnCount();
+        int row = sp._model.getRowCount();
+
+        RandomNumber rnd = new RandomNumber();
+
+        for(int i = 0 ; i < col ; i ++)
+            for(int j = 0; j < row/2 ; j++){
+                sp._model.setValueAt(Double.toString(rnd.nextInt(10)),i,j);
+            }
+
+
+
     }
 
     /**

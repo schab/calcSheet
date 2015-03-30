@@ -1,5 +1,3 @@
-package spread;
-
 import javax.swing.*;
 
 

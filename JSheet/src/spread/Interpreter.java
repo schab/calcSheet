@@ -1,5 +1,3 @@
-package spread;
-
 /******************************************************************************************
  * This class implements an interpreter
  * that reads the content of a cell and
@@ -192,6 +190,7 @@ class Interpreter {
 	try {
 	  rightTerm = (Float)accept(TERM);
 	  if (_noEmptyRef) {
+
 	    res = computeOperation( op,
 				    leftTerm.floatValue(),
 				    rightTerm.floatValue() );
