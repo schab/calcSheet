@@ -20,7 +20,7 @@ public class MainFrame extends JFrame {
     private static final String formRows    =   "10px,80px,10px,pref:grow,10px,30px";
     private static final String tabbedColumns = "250px,pref:grow,10px";
     private static final String tabbedRows    = "10px,pref:grow,10px";
-    private static final String jtbColumns =   "10px,24px,5px,24px,5px,24px,5px,24px,5px,24px,5px,pref:grow,10px";
+    private static final String jtbColumns =   "10px,24px,5px,24px,5px,24px,5px,24px,5px,24px,5px,24px,50px,pref:grow,10px";
     private static final String jtbRows    =   "8px,24px,6px,24px,8px";
 
 

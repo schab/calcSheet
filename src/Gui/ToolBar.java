@@ -20,6 +20,7 @@ public class ToolBar extends JToolBar implements ActionListener{
     private Icon[] toolIcons;
     private ActionListener actionListener;
     private ArrayList<JComponent> jtbElements;
+    private String[] fontList = { "Arial", "Times new Roman", "Tahoma", "Celtic", "Gisha" };
 
 
 
@@ -39,20 +40,27 @@ public class ToolBar extends JToolBar implements ActionListener{
 
     private void initializeToolBarComponents(){
 
+
+
         jtbElements.add(0, this.createToolBarButton("New", Images.New.getIcon(20, 20), true, this));
         jtbElements.add(1, this.createToolBarButton("Open", Images.Open.getIcon(20, 20), true, this));
         jtbElements.add(2, this.createToolBarButton("Save", Images.Save.getIcon(20, 20), true, this));
         jtbElements.add(3, this.createToolBarButton("Print", Images.Print.getIcon(20, 20), true, this));
         jtbElements.add(4, new JSeparator(VERTICAL));
+        jtbElements.add(5, new JComboBox(fontList));
 
         //    private static final String jtbColumns =   "10px,24px,5px,24px,5px,24px,5px,24px,5px,pref:grow,10px";
 
 //        private static final String jtbRows    =   "8px,24px,6px,24px,8px"
         jPanel.addXY(jtbElements.get(0) , 2,2);
-        jPanel.addXY(jtbElements.get(1) , 4,2);
-        jPanel.addXY(jtbElements.get(2) , 6,2);
-        jPanel.addXY(jtbElements.get(3) , 8,2);
-        jPanel.addXY(jtbElements.get(4) , 10,2);
+        jPanel.addXY(jtbElements.get(1), 4, 2);
+        jPanel.addXY(jtbElements.get(2), 6, 2);
+        jPanel.addXY(jtbElements.get(3), 8, 2);
+        jPanel.addXY(jtbElements.get(4), 10, 2);
+        jPanel.addXY(jtbElements.get(5) , 12,2);
+
+
+
 
 
 //        this.createToolBarButton("Print", Images.Print.getIcon(20, 20), true, this));
@@ -63,7 +71,7 @@ public class ToolBar extends JToolBar implements ActionListener{
 //        jPanel.addXY(new JSeparator(SwingConstants.VERTICAL));
 //        jPanel.addXY(new JComboBox<String>());
 
-          this.add(jPanel);
+        this.add(jPanel);
 
 
 
