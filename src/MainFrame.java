@@ -17,9 +17,12 @@ public class MainFrame extends JFrame {
     private static final int HEIGHT = 600;
 
     private static final String formColumns =   "10px,pref:grow,10px";
-    private static final String formRows    =   "10px,50px,10px,pref:grow,10px,30px";
+    private static final String formRows    =   "10px,80px,10px,pref:grow,10px,30px";
     private static final String tabbedColumns = "250px,pref:grow,10px";
     private static final String tabbedRows    = "10px,pref:grow,10px";
+    private static final String jtbColumns =   "10px,24px,5px,24px,5px,24px,5px,24px,5px,24px,5px,pref:grow,10px";
+    private static final String jtbRows    =   "8px,24px,6px,24px,8px";
+
 
     private static final String title = "Projekt zespołowy: calcSheet";
 
@@ -65,7 +68,7 @@ public class MainFrame extends JFrame {
         jPanel = new FormPanel(formColumns,formRows);
         logPanel = new LogPanel();
         centerPanel = new CenterPanel(tabbedColumns,tabbedRows);
-        jtb = new ToolBar();
+        jtb = new ToolBar(jtbColumns,jtbRows);
         jMenuBar = new MenuBar();
 
 

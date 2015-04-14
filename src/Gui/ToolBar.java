@@ -7,7 +7,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 import java.io.File;
+import java.util.ArrayList;
 
 /**
  * Created by Kacper on 2015-03-30.
@@ -17,59 +19,68 @@ public class ToolBar extends JToolBar implements ActionListener{
     private String[] toolTips;
     private Icon[] toolIcons;
     private ActionListener actionListener;
+    private ArrayList<JComponent> jtbElements;
 
-    public ToolBar(){
+
+
+    private String cols;
+    private String rows;
+    private FormPanel jPanel;
+
+    public ToolBar(String x,String y){
+        this.cols = x;
+        this.rows = y;
+        jPanel = new FormPanel(cols,rows);
+        jtbElements = new ArrayList<JComponent>();
+
 
         this.initializeToolBarComponents();
-
-
-
-
     }
 
     private void initializeToolBarComponents(){
 
-        GridLayout gridLayout = new GridLayout(2,1);
-        gridLayout.setHgap(10);
-        gridLayout.setVgap(0);
+        jtbElements.add(0, this.createToolBarButton("New", Images.New.getIcon(20, 20), true, this));
+        jtbElements.add(1, this.createToolBarButton("Open", Images.Open.getIcon(20, 20), true, this));
+        jtbElements.add(2, this.createToolBarButton("Save", Images.Save.getIcon(20, 20), true, this));
+        jtbElements.add(3, this.createToolBarButton("Print", Images.Print.getIcon(20, 20), true, this));
+        jtbElements.add(4, new JSeparator(VERTICAL));
+
+        //    private static final String jtbColumns =   "10px,24px,5px,24px,5px,24px,5px,24px,5px,pref:grow,10px";
+
+//        private static final String jtbRows    =   "8px,24px,6px,24px,8px"
+        jPanel.addXY(jtbElements.get(0) , 2,2);
+        jPanel.addXY(jtbElements.get(1) , 4,2);
+        jPanel.addXY(jtbElements.get(2) , 6,2);
+        jPanel.addXY(jtbElements.get(3) , 8,2);
+        jPanel.addXY(jtbElements.get(4) , 10,2);
 
 
-        JPanel buttonPanelUp = new JPanel();
-        JPanel buttonPanelDown = new JPanel();
+//        this.createToolBarButton("Print", Images.Print.getIcon(20, 20), true, this));
+//        new JSeparator(SwingConstants.VERTICAL));
+//        new JComboBox<String>());
 
-        buttonPanelUp.setLayout(new FlowLayout(FlowLayout.LEFT));
-        buttonPanelDown.setLayout(new FlowLayout(FlowLayout.LEFT));
+//        jPanel.addXY(this.createToolBarButton("Print", Images.Print.getIcon(20, 20), true, this));
+//        jPanel.addXY(new JSeparator(SwingConstants.VERTICAL));
+//        jPanel.addXY(new JComboBox<String>());
 
-        buttonPanelUp.setComponentOrientation(ComponentOrientation.LEFT_TO_RIGHT);
-        buttonPanelDown.setComponentOrientation(ComponentOrientation.LEFT_TO_RIGHT);
-
-        this.setLayout(gridLayout);
-        this.add(buttonPanelUp);
-        this.add(buttonPanelDown);
-
-        buttonPanelUp.add(this.createToolBarButton("New", Images.New.getIcon(8,8), true, this));
-        buttonPanelUp.add(this.createToolBarButton("Open", Images.Open.getIcon(8, 8), true, this));
-        buttonPanelUp.add(this.createToolBarButton("Save", Images.Save.getIcon(8, 8), true, this));
-        buttonPanelUp.add(this.createToolBarButton("Print", Images.Print.getIcon(8, 8), true, this));
-        buttonPanelUp.add(new JSeparator(SwingConstants.VERTICAL));
-        buttonPanelUp.add(new JComboBox<String>());
-
-
-
+          this.add(jPanel);
 
 
 
 
     }
+
 
     private JButton createToolBarButton(String str , Icon ic , boolean bool,ActionListener actionListener){
         JButton jb = new JButton("",ic);
-        jb.setSize(10,10);
         jb.setToolTipText(str);
         jb.addActionListener(actionListener);
         jb.setEnabled(bool);
+        jb.setContentAreaFilled(false);
+        jb.setBorderPainted(false);
         return jb;
     }
+
 
     @Override
     public void actionPerformed(ActionEvent e) {
