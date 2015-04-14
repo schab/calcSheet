@@ -2,6 +2,7 @@ import Gui.*;
 import Gui.MenuBar;
 import SheetComponent.SpreadSheet;
 
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.WindowAdapter;
@@ -67,9 +68,22 @@ public class MainFrame extends JFrame {
         jtb = new ToolBar();
         jMenuBar = new MenuBar();
 
+
+
+
+
         centerPanel.setAlpha(0.9f);
         jPanel.addXY(centerPanel, 2, 4);
         jPanel.addXYW(logPanel, 1, 6,3);
+        jPanel.addXY(jtb,2,2);
+
+
+
+
+
+
+
+
 
     }
 
@@ -119,6 +133,7 @@ public class MainFrame extends JFrame {
     private JToolBar jtb;
     private JMenuBar jMenuBar;
     private CenterPanel centerPanel;
+
 
     private SpreadSheet spreadSheet;
 
