@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c55a8b4f-fd25-45a6-939b-367e07386f53" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Hubert\IdeaProjects\calcSheets\src\Gui\a.form" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Hubert\IdeaProjects\calcSheets\src\Gui\a.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/MainFrame$1.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/MainFrame$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/MainFrame$2.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/MainFrame$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/MainFrame.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/MainFrame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/ToolBar.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/ToolBar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainFrame.java" afterPath="$PROJECT_DIR$/src/MainFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gui/ToolBar.java" afterPath="$PROJECT_DIR$/src/Gui/ToolBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projektLog.log" afterPath="$PROJECT_DIR$/projektLog.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="0c63b839-f9fe-4c3d-b82d-806e2ae36eef" name="Update" comment="Gui changes" />
@@ -161,9 +152,7 @@
                 </edge>
               </edges>
               <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="789.1666666666665" y="466.9999999999999" />
-              <SelectedNodes>
-                <node>Gui.ToolBar</node>
-              </SelectedNodes>
+              <SelectedNodes />
               <Categories>
                 <Category>Methods</Category>
               </Categories>
@@ -639,7 +628,7 @@
       <created>1428943440932</created>
       <option name="number" value="Default" />
       <updated>1428943440932</updated>
-      <workItem from="1428954412125" duration="17175000" />
+      <workItem from="1428954412125" duration="17261000" />
     </task>
     <task id="LOCAL-00001" summary="Toolbar v 0.1">
       <created>1428992295601</created>
@@ -647,15 +636,27 @@
       <option name="project" value="LOCAL" />
       <updated>1428992295601</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Toolbar v 0.2">
+      <created>1428996159488</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1428996159488</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Toolbar v 0.2">
+      <created>1428996188149</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1428996188149</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17175000" />
+    <option name="totallyTimeSpent" value="17261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -668,7 +669,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31028938" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22541603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22541603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -725,7 +726,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update gui application" />
     <MESSAGE value="Toolbar v 0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Toolbar v 0.1" />
+    <MESSAGE value="Toolbar v 0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Toolbar v 0.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1197,9 +1199,7 @@
             </edge>
           </edges>
           <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="789.1666666666665" y="466.9999999999999" />
-          <SelectedNodes>
-            <node>Gui.ToolBar</node>
-          </SelectedNodes>
+          <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
           </Categories>
