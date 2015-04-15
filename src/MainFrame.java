@@ -17,10 +17,13 @@ public class MainFrame extends JFrame {
     private static final int HEIGHT = 600;
 
     private static final String formColumns =   "10px,pref:grow,10px";
-    private static final String formRows    =   "10px,80px,10px,pref:grow,10px,30px";
+    private static final String formRows    =   "10px,40px,10px,pref:grow,10px,30px";
     private static final String tabbedColumns = "250px,pref:grow,10px";
     private static final String tabbedRows    = "10px,pref:grow,10px";
-    private static final String jtbColumns =   "10px,24px,5px,24px,5px,24px,5px,24px,5px,5px,5px,110px,5px,pref:grow,10px";
+    private static final String jtbColumns =   "10px,24px,5px,24px,5px,24px,5px,24px,5px,10px,5px,140px,5px,50px,5px, " +
+                                                "5px,5px,24px,5px,24px,5px,24px,5px,10px,5px,24px,5px,24px,5px,24px,5px," +
+                                                "10px,5px,24px,5px,24px,5px," +
+                                                "10px,5px,24px,5px,24px,5px,24px,5px,24px,5px,24px,5px,24px,5px,10px,5px,24px,5px,pref:grow,10px";
     private static final String jtbRows    =   "8px,24px,6px,24px,8px";
 
 
