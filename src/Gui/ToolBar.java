@@ -81,34 +81,6 @@ public class ToolBar extends JToolBar implements ActionListener{
 
         }
 
-//        jPanel.addXY(jtbElements.get(0) , 2,2);
-//        jPanel.addXY(jtbElements.get(1), 4, 2);
-//        jPanel.addXY(jtbElements.get(2), 6, 2);
-//        jPanel.addXY(jtbElements.get(3), 8, 2);
-//        jPanel.addXY(jtbElements.get(4), 10, 2);
-//        jPanel.addXY(jtbElements.get(5) , 12,2);
-//        jPanel.addXY(jtbElements.get(6) , 14,2);
-//        jPanel.addXY(jtbElements.get(7) , 16,2);
-//        jPanel.addXY(jtbElements.get(8) , 18,2);
-//        jPanel.addXY(jtbElements.get(9) , 20,2);
-//        jPanel.addXY(jtbElements.get(10) , 22,2);
-//        jPanel.addXY(jtbElements.get(11) , 24,2);
-//        jPanel.addXY(jtbElements.get(12) , 26,2);
-//        jPanel.addXY(jtbElements.get(13) , 28,2);
-//        jPanel.addXY(jtbElements.get(14) , 30,2);
-//        jPanel.addXY(jtbElements.get(15) , 32,2);
-//        jPanel.addXY(jtbElements.get(16) , 34,2);
-//        jPanel.addXY(jtbElements.get(17) , 36,2);
-//        jPanel.addXY(jtbElements.get(18) , 38,2);
-//        jPanel.addXY(jtbElements.get(19) , 40,2);
-//        jPanel.addXY(jtbElements.get(20) , 42,2);
-//        jPanel.addXY(jtbElements.get(21) , 44,2);
-//        jPanel.addXY(jtbElements.get(22) , 46,2);
-//        jPanel.addXY(jtbElements.get(23) , 48,2);
-//        jPanel.addXY(jtbElements.get(24) , 50,2);
-//        jPanel.addXY(jtbElements.get(25) , 52,2);
-//        jPanel.addXY(jtbElements.get(26) , 54,2);
-
 
 
 
@@ -129,12 +101,28 @@ public class ToolBar extends JToolBar implements ActionListener{
         jb.setEnabled(bool);
         jb.setContentAreaFilled(false);
         jb.setBorderPainted(false);
+
+
         return jb;
     }
+
 
 
     @Override
     public void actionPerformed(ActionEvent e) {
 
+        Object g = e.getSource();
+
+
+
+        if(e.getSource().equals(jtbElements.get(0))){
+
+            System.out.print("dziala");
+        }
+
+
     }
+
+
+
 }
