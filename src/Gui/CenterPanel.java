@@ -2,7 +2,6 @@ package Gui;
 
 import Functions.Colors;
 import Functions.Fonts;
-import Functions.Images;
 import SheetComponent.SpreadSheet;
 
 import javax.swing.*;
@@ -26,35 +25,24 @@ public class CenterPanel extends FormPanel{
     private JPanel newTabContent;   // the empty JPanel of the "new tab" tab
     private ArrayList<SpreadSheet> sheetTable;
     private int tabIndex;  // used in creating unique initial tab titles
-    private TaskPane taskPane;
     private MultiOptionPane multiOptionPane;
+    private int location;
+
 
     public CenterPanel(String col, String row) {
-        super(col,row);
-
+        super(col, row);
+        this.location = JTabbedPane.BOTTOM;
         initializeComponents();
         initializeTabbedPane();
-        initializeTaskPane();
 
-        this.setBorder(BorderFactory.createBevelBorder(1, Colors.MyGray.color().darker(), Colors.MyGray.color().brighter()));
-        this.addXY(taskPane, 1, 2);
-        this.addXY(jTabbedPane, 2, 2);
+        this.addXY(jTabbedPane, 1, 2);
     }
 
     private void initializeComponents(){
         sheetTable = new ArrayList<SpreadSheet>();
-        jTabbedPane = new JTabbedPane();
-        taskPane = new TaskPane();
+        jTabbedPane = new JTabbedPane(location);
         multiOptionPane = new MultiOptionPane();
     }
-
-    private void initializeTaskPane() {
-        taskPane.addComponent(abstractAction("Dodaj arkusz", "Kliknij, aby dodać arkusz.", Images.NetworkDisconnected.getIcon(32, 32), 0));
-        taskPane.addComponent(abstractAction("Usuń", "Kliknij, aby usunąć arkusz.", Images.NetworkDisconnected.getIcon(32, 32), 1));
-        taskPane.addComponent(abstractAction("Zmień rozmiar", "Kliknij, aby zmienić rozmiar arkusza.", Images.NetworkDisconnected.getIcon(32, 32), 2));
-        taskPane.addComponent(abstractAction("Zapisz dane","Kliknij, aby zapisać dane arkusza.", Images.NetworkDisconnected.getIcon(32,32),3));
-    }
-
 
 
     private void initializeTabbedPane(){
@@ -81,8 +69,8 @@ public class CenterPanel extends FormPanel{
         });
 
         jTabbedPane.addTab("+", newTabContent);
-        jTabbedPane.setUI(new TabbedUI());
         jTabbedPane.setFont(Fonts.Calibri.font());
+        jTabbedPane.setOpaque(false);
     }
 
 
@@ -112,8 +100,6 @@ public class CenterPanel extends FormPanel{
             jTabbedPane.setTabComponentAt(newGroupIndex, tabComp);
             tabComp.startNameEditing();
         }
-
-
     }
 
     public void RemoveTab(){
@@ -150,8 +136,6 @@ public class CenterPanel extends FormPanel{
                 ex.printStackTrace();
             }
         }
-
-
     }
 
     private void stopTabNameEditing() {
@@ -163,55 +147,6 @@ public class CenterPanel extends FormPanel{
             }
         }
     }
-
-
-
-        private void tableFunctions(int index){
-        switch(index){
-            case 0:
-                    taskPane.setLabelText("Dodanie Arkusza");
-                    addTab();
-                    jTabbedPane.setSelectedIndex(jTabbedPane.getTabCount() - 2);
-
-                break;
-
-            case 1:
-                taskPane.setLabelText("Usuwanie Arkusza");
-                    RemoveTab();
-                break;
-
-            case 2:
-                    taskPane.setLabelText("Zmiana Rozmiaru");
-                    ResizeTab();
-                break;
-
-            case 3:
-                    taskPane.setLabelText("Zapisywanie danych");
-                    SaveTable();
-                    break;
-        }
-    }
-
-
-
-    private AbstractAction abstractAction(String name,String desc,Icon icon,int index){
-        final String _name,_desc; _name = name; _desc = desc;
-        final Icon _icon = icon;
-        final int _index = index;
-
-        return new AbstractAction() {
-            {
-                putValue(Action.NAME,_name);
-                putValue(Action.SHORT_DESCRIPTION,_desc);
-                putValue(Action.SMALL_ICON,_icon);
-            }
-            public void actionPerformed(ActionEvent e) {
-                tableFunctions(_index);
-            }
-
-        };
-    }
-
 
     public JTabbedPane getjTabbedPane(){ return jTabbedPane;}
 
@@ -231,7 +166,7 @@ public class CenterPanel extends FormPanel{
             title.setOpaque(false);
             final TabComponent self = this;
             title.setFont(Fonts.Calibri.font());
-            title.setForeground(Colors.LightBlue.color());
+            title.setForeground(Colors.Black.color(0.5f));
             title.addMouseListener(new MouseAdapter() {
                 public void mouseClicked(MouseEvent evt) {
                     if (evt.getClickCount() == 1) {
@@ -278,7 +213,7 @@ public class CenterPanel extends FormPanel{
             title.setCaret(nonEditingCaret);
             title.setEditable(false);
             editingBorder = BorderFactory.createLineBorder(Colors.Black.color(), 1);
-            nonEditingBorder = BorderFactory.createEmptyBorder(0, 0, 20, 0);
+            nonEditingBorder = BorderFactory.createEmptyBorder(0, 0, 0, 0);
 
             title.setBorder(nonEditingBorder);
             add(title);
@@ -317,7 +252,7 @@ public class CenterPanel extends FormPanel{
                 title.setSelectionEnd(0);
                 title.setCaret(nonEditingCaret);
 
-                title.setForeground(Colors.LightBlue.color());
+                title.setForeground(Colors.Black.color(0.5f));
                 jTabbedPane.setTitleAt(jTabbedPane.indexOfTabComponent(this), title.getText());
 
             }
