@@ -12,9 +12,6 @@ import java.util.ArrayList;
  */
 public class ToolBar extends JToolBar implements ActionListener{
 
-    private String[] toolTips;
-    private Icon[] toolIcons;
-    private ActionListener actionListener;
     private ArrayList<JComponent> jtbElements;
     private String[] fontList = { "Arial", "Times new Roman", "Tahoma", "Celtic", "Gisha" };
     private String[] fontSizeList = {"4","6","8","10","12","14","16","18","20","22","24","26","28","30","32" };
@@ -34,6 +31,8 @@ public class ToolBar extends JToolBar implements ActionListener{
 
 
         this.initializeToolBarComponents();
+        this.setFloatable(false);
+
     }
 
     private void initializeToolBarComponents(){

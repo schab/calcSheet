@@ -16,8 +16,8 @@ public class MainFrame extends JFrame {
     private static final int WIDTH = 1110;
     private static final int HEIGHT = 600;
 
-    private static final String formColumns =   "10px,pref:grow,10px";
-    private static final String formRows    =   "10px,40px,10px,pref:grow,10px,30px";
+    private static final String formColumns =   "pref:grow";
+    private static final String formRows    =   "40px,10px,pref:grow,15px";
 
     private static final String tabbedColumns = "pref:grow";
     private static final String tabbedRows    = "10px,pref:grow,10px";
@@ -80,10 +80,10 @@ public class MainFrame extends JFrame {
 
 
 
-        centerPanel.setAlpha(0.9f);
-        jPanel.addXY(centerPanel, 2, 4);
-        jPanel.addXYW(logPanel, 1, 6,3);
-        jPanel.addXY(jtb,2,2);
+//        centerPanel.setAlpha(0.9f);
+        jPanel.addXY(centerPanel, 1, 3);
+        jPanel.addXY(logPanel, 1, 4);
+        jPanel.addXY(jtb,1,1);
 
 
 

@@ -1,7 +1,6 @@
 package Gui;
 
 import Functions.Colors;
-import Functions.Fonts;
 import org.apache.log4j.*;
 import org.apache.log4j.xml.DOMConfigurator;
 
@@ -17,7 +16,7 @@ public class LogPanel extends JPanel{
 
 
         final static Logger logger = Logger.getLogger("logger");
-        private static JTextField statusField,infoField;
+        private static JLabel statusField,infoField;
         private JLabel statusLabel,infoLabel;
 
         public LogPanel(){
@@ -36,51 +35,44 @@ public class LogPanel extends JPanel{
 
             statusLabel = new JLabel("Status:");
             infoLabel   = new JLabel("Stan:");
+            infoField = new JLabel("Start Aplikacji");
+            statusField = new JLabel("ON");
 
-
-            statusLabel.setFont(Fonts.Calibri.font());
-            infoLabel.setFont(Fonts.Calibri.font());
+            infoField.setMaximumSize(new Dimension(500,11));
+            statusField.setMaximumSize(new Dimension(200,11));
+            infoField.setMinimumSize(new Dimension(200, 11));
+            statusField.setMinimumSize(new Dimension(100,11));
 
             statusLabel.setForeground(Colors.LightBlue.color(0.7f).brighter());
             infoLabel.setForeground(Colors.LightBlue.color(0.7f).brighter());
+            infoField.setForeground(Colors.LightBlue.color(0.7f).brighter());
+            statusField.setForeground(Colors.LightBlue.color(0.7f).brighter());
 
-            infoField = new JTextField("Start Aplikacji");
-            infoField.setMaximumSize(new Dimension(500, 20));
-            infoField.setMinimumSize(new Dimension(200, 20));
 
-            infoField.putClientProperty("JComponent.sizeVariant", "small");
 
-            statusField = new JTextField("ON");
-            statusField.setMaximumSize(new Dimension(100, 20));
+//            infoField.putClientProperty("JComponent.sizeVariant", "small");
 
-            statusField.putClientProperty("JComponent.sizeVariant", "small");
 
-            infoField.setEditable(false);
-            statusField.setEditable(false);
+//            statusField.putClientProperty("JComponent.sizeVariant", "small");
 
-            infoField.setFont(new Font("Calibri", Font.PLAIN, 13));
-            statusField.setFont(new Font("Calibri", Font.PLAIN, 13));
-
+            infoField.setFont(new Font("Calibri", Font.PLAIN, 11));
+            statusField.setFont(new Font("Calibri", Font.PLAIN,11));
+            statusLabel.setFont(new Font("Calibri", Font.PLAIN, 11));
+            infoLabel.setFont(new Font("Calibri", Font.PLAIN, 11));
 
 
             infoField.setBackground(new Color(255, 255, 255));
             statusField.setBackground(new Color(255, 255, 255));
 
-
-
-
-            this.add(infoLabel);
-            this.add(Box.createHorizontalStrut(10));
-            this.add(infoField);
             this.add(Box.createHorizontalStrut(20));
+            this.add(infoLabel);
+            this.add(infoField);
+            this.add(Box.createHorizontalStrut(10));
 
             this.add(statusLabel);
-            this.add(Box.createHorizontalStrut(10));
             this.add(statusField);
-            this.add(Box.createHorizontalStrut(20));
+            this.add(Box.createHorizontalStrut(10));
 
-            infoLabel.setBorder(BorderFactory.createEmptyBorder(10, 20, 10, 0));
-            statusLabel.setBorder(BorderFactory.createEmptyBorder(10, 40, 10, 0));
         }
 
 
