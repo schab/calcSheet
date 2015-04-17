@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c55a8b4f-fd25-45a6-939b-367e07386f53" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Kacper\IdeaProjects\calcSheets\out\production\SpreadSheet\Gui\TabbedUI.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/LogPanel.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/LogPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gui/LogPanel.java" afterPath="$PROJECT_DIR$/src/Gui/LogPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/MainFrame.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/MainFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/ToolBar.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/ToolBar.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainFrame.java" afterPath="$PROJECT_DIR$/src/MainFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gui/ToolBar.java" afterPath="$PROJECT_DIR$/src/Gui/ToolBar.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projektLog.log" afterPath="$PROJECT_DIR$/projektLog.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -47,8 +45,8 @@
       <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33849558">
-              <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
+            <state vertical-scroll-proportion="2.7455752">
+              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,6 +117,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Sobiech" />
+      </list>
+    </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
@@ -537,7 +540,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429264799819</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="GuiChanges v 1.0">
+      <created>1429267147240</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1429267147240</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -619,7 +628,8 @@
     <MESSAGE value="Toolbar v 0.3" />
     <MESSAGE value="Toolbar v 1.0" />
     <MESSAGE value="JTabbedPane v 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="JTabbedPane v 1.0" />
+    <MESSAGE value="GuiChanges v 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="GuiChanges v 1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -973,8 +983,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33849558">
-          <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
+        <state vertical-scroll-proportion="2.7455752">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -77,21 +77,9 @@ public class MainFrame extends JFrame {
         jMenuBar = new MenuBar();
 
 
-
-
-
-//        centerPanel.setAlpha(0.9f);
         jPanel.addXY(centerPanel, 1, 3);
         jPanel.addXY(logPanel, 1, 4);
         jPanel.addXY(jtb,1,1);
-
-
-
-
-
-
-
-
 
     }
 
