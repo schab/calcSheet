@@ -1405,6 +1405,7 @@ INFO  : 2015-04-18 11:38:54,383: class MainFrame$1:: Wy章czenie aplikacji
 INFO  : 2015-04-18 11:44:19,922: class MainFrame:: Uruchomiono aplikacje Projekt zespo這wy: calcSheet
 INFO  : 2015-04-18 11:45:01,315: class MainFrame$1:: Wy章czenie aplikacji
 INFO  : 2015-04-18 11:46:19,299: class MainFrame:: Uruchomiono aplikacje Projekt zespo這wy: calcSheet
+<<<<<<< HEAD
 INFO  : 2015-04-18 11:53:17,602: class MainFrame:: Uruchomiono aplikacje Projekt zespo這wy: calcSheet
 INFO  : 2015-04-18 11:54:57,732: class MainFrame$1:: Wy章czenie aplikacji
 INFO  : 2015-04-18 11:59:57,636: class MainFrame:: Uruchomiono aplikacje Projekt zespo這wy: calcSheet
@@ -1477,3 +1478,15 @@ INFO  : 2015-04-18 13:24:51,711: class MainFrame:: Uruchomiono aplikacje Projekt
 INFO  : 2015-04-18 13:24:54,683: class MainFrame$1:: Wy章czenie aplikacji
 INFO  : 2015-04-18 13:27:25,892: class MainFrame:: Uruchomiono aplikacje Projekt zespo這wy: calcSheet
 INFO  : 2015-04-18 13:28:11,208: class MainFrame$1:: Wy章czenie aplikacji
+=======
+INFO  : 2015-04-18 13:15:34,327: class MainFrame:: Uruchomiono aplikacje Projekt zespo這wy: calcSheet
+INFO  : 2015-04-18 13:16:05,366: class MainFrame$1:: Wy章czenie aplikacji
+INFO  : 2015-04-18 13:16:57,355: class MainFrame:: Uruchomiono aplikacje Projekt zespo這wy: calcSheet
+INFO  : 2015-04-18 13:17:25,133: class MainFrame$1:: Wy章czenie aplikacji
+INFO  : 2015-04-18 13:20:34,734: class MainFrame:: Uruchomiono aplikacje Projekt zespo這wy: calcSheet
+INFO  : 2015-04-18 13:20:44,124: class MainFrame$1:: Wy章czenie aplikacji
+INFO  : 2015-04-18 13:21:08,757: class MainFrame:: Uruchomiono aplikacje Projekt zespo這wy: calcSheet
+INFO  : 2015-04-18 13:21:16,402: class MainFrame$1:: Wy章czenie aplikacji
+INFO  : 2015-04-18 13:21:28,739: class MainFrame:: Uruchomiono aplikacje Projekt zespo這wy: calcSheet
+INFO  : 2015-04-18 13:22:07,658: class MainFrame$1:: Wy章czenie aplikacji
+>>>>>>> origin/master
