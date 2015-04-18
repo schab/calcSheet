@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c55a8b4f-fd25-45a6-939b-367e07386f53" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/SheetComponent/CellMenu.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/SheetComponent/CellMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$1.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$2.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent$1.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent$2.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent$3.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent$4.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Functions/Fonts.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Functions/Fonts.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/SheetComponent/SheetCell.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/SheetComponent/SheetCell.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/SheetComponent/SpreadSheet$CellRenderer.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/SheetComponent/SpreadSheet$CellRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/SheetComponent/SpreadSheet.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/SheetComponent/SpreadSheet.class" />
+      <change type="DELETED" beforePath="C:\Users\Kacper\IdeaProjects\calcSheets\lib\icons.zip" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gui/CenterPanel.java" afterPath="$PROJECT_DIR$/src/Gui/CenterPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainFrame.java" afterPath="$PROJECT_DIR$/src/MainFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SheetComponent/SpreadSheet.java" afterPath="$PROJECT_DIR$/src/SheetComponent/SpreadSheet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gui/ToolBar.java" afterPath="$PROJECT_DIR$/src/Gui/ToolBar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projektLog.log" afterPath="$PROJECT_DIR$/projektLog.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="0c63b839-f9fe-4c3d-b82d-806e2ae36eef" name="Update" comment="Gui changes" />
@@ -39,11 +33,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="ToolBar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gui/ToolBar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.62069">
+              <caret line="73" column="34" selection-start-line="73" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,36 +59,25 @@
         <entry file="file://$PROJECT_DIR$/src/Gui/CenterPanel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="227" column="53" selection-start-line="227" selection-start-column="53" selection-end-line="227" selection-end-column="53" />
+              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
               <folding>
-                <element signature="method#addTab#0;class#CenterPanel#0" expanded="false" />
                 <element signature="method#RemoveTab#0;class#CenterPanel#0" expanded="false" />
                 <element signature="method#ResizeTab#0;class#CenterPanel#0" expanded="false" />
                 <element signature="method#SaveTable#0;class#CenterPanel#0" expanded="false" />
                 <element signature="method#stopTabNameEditing#0;class#CenterPanel#0" expanded="false" />
-                <element signature="class#6221:7399" expanded="false" />
-                <element signature="e#9627#9641#0" expanded="true" />
-                <element signature="e#9975#9989#0" expanded="true" />
+                <element signature="class#6336:7514" expanded="false" />
+                <element signature="e#9742#9756#0" expanded="true" />
+                <element signature="e#10090#10104#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fonts.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Functions/Fonts.java">
+      <file leaf-file-name="FormulaBar.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Gui/FormulaBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpreadSheet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SheetComponent/SpreadSheet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="347" column="33" selection-start-line="347" selection-start-column="33" selection-end-line="347" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.41371682">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,6 +95,40 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SpreadSheet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SheetComponent/SpreadSheet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.965517">
+              <caret line="365" column="0" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3185#3661#0" expanded="true" />
+                <element signature="e#3660#3661#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Interpreter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SheetComponent/Interpreter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="106" column="27" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpreadSheetModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SheetComponent/SpreadSheetModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SheetCell.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SheetComponent/SheetCell.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,56 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Interpreter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SheetComponent/Interpreter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="30.310345">
-              <caret line="106" column="27" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FontChooser.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Gui/FontChooser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22405271">
-              <caret line="380" column="45" selection-start-line="380" selection-start-column="45" selection-end-line="380" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3114#3115#0" expanded="true" />
-                <element signature="e#3169#3170#0" expanded="true" />
-                <element signature="e#12909#12910#0" expanded="true" />
-                <element signature="e#12951#12952#0" expanded="true" />
-                <element signature="e#13621#13622#0" expanded="true" />
-                <element signature="e#13984#13985#0" expanded="true" />
-                <element signature="e#14050#14051#0" expanded="true" />
-                <element signature="e#15133#15134#0" expanded="true" />
-                <element signature="e#15190#15191#0" expanded="true" />
-                <element signature="e#15585#15586#0" expanded="true" />
-                <element signature="e#15639#15640#0" expanded="true" />
-                <element signature="e#16856#16857#0" expanded="true" />
-                <element signature="e#16916#16917#0" expanded="true" />
-                <element signature="e#16985#16986#0" expanded="true" />
-                <element signature="e#17026#17027#0" expanded="true" />
-                <element signature="e#17095#17096#0" expanded="true" />
-                <element signature="e#17136#17137#0" expanded="true" />
-                <element signature="e#17206#17207#0" expanded="true" />
-                <element signature="e#17247#17248#0" expanded="true" />
-                <element signature="e#18593#18594#0" expanded="true" />
-                <element signature="e#18651#18652#0" expanded="true" />
-                <element signature="e#18704#18705#0" expanded="true" />
-                <element signature="e#18783#18784#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FormPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Gui/FormPanel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -199,15 +181,16 @@
         <option value="$PROJECT_DIR$/src/Functions/Images.java" />
         <option value="$PROJECT_DIR$/src/Gui/TabbedUI.java" />
         <option value="$PROJECT_DIR$/src/Gui/LogPanel.java" />
-        <option value="$PROJECT_DIR$/src/Gui/ToolBar.java" />
-        <option value="$PROJECT_DIR$/src/MainFrame.java" />
-        <option value="$PROJECT_DIR$/src/Gui/CenterPanel.java" />
         <option value="$PROJECT_DIR$/src/Gui/FontChooser.java" />
         <option value="$PROJECT_DIR$/src/SheetComponent/SheetCell.java" />
-        <option value="$PROJECT_DIR$/src/SheetComponent/SpreadSheet.java" />
         <option value="$PROJECT_DIR$/src/abcd.java" />
         <option value="$PROJECT_DIR$/src/SheetComponent/CellMenu.java" />
         <option value="$PROJECT_DIR$/src/Functions/Fonts.java" />
+        <option value="$PROJECT_DIR$/src/Gui/ToolBar.java" />
+        <option value="$PROJECT_DIR$/src/MainFrame.java" />
+        <option value="$PROJECT_DIR$/src/Gui/CenterPanel.java" />
+        <option value="$PROJECT_DIR$/src/SheetComponent/SpreadSheet.java" />
+        <option value="$PROJECT_DIR$/src/Gui/FormulaBar.java" />
       </list>
     </option>
   </component>
@@ -325,11 +308,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Functions" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,6 +337,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -671,7 +652,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24409449" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24409449" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19253294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -755,14 +736,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#addTab#0;class#CenterPanel#0" expanded="false" />
             <element signature="method#RemoveTab#0;class#CenterPanel#0" expanded="false" />
             <element signature="method#ResizeTab#0;class#CenterPanel#0" expanded="false" />
             <element signature="method#SaveTable#0;class#CenterPanel#0" expanded="false" />
             <element signature="method#stopTabNameEditing#0;class#CenterPanel#0" expanded="false" />
-            <element signature="class#6221:7399" expanded="false" />
-            <element signature="e#9627#9641#0" expanded="true" />
-            <element signature="e#9975#9989#0" expanded="true" />
+            <element signature="class#6336:7514" expanded="false" />
+            <element signature="e#9742#9756#0" expanded="true" />
+            <element signature="e#10090#10104#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -771,9 +751,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -807,14 +785,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#addTab#0;class#CenterPanel#0" expanded="false" />
             <element signature="method#RemoveTab#0;class#CenterPanel#0" expanded="false" />
             <element signature="method#ResizeTab#0;class#CenterPanel#0" expanded="false" />
             <element signature="method#SaveTable#0;class#CenterPanel#0" expanded="false" />
             <element signature="method#stopTabNameEditing#0;class#CenterPanel#0" expanded="false" />
-            <element signature="class#6221:7399" expanded="false" />
-            <element signature="e#9627#9641#0" expanded="true" />
-            <element signature="e#9975#9989#0" expanded="true" />
+            <element signature="class#6336:7514" expanded="false" />
+            <element signature="e#9742#9756#0" expanded="true" />
+            <element signature="e#10090#10104#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -823,9 +800,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -841,21 +816,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/icons.zip!/NetworkConnected.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/icons.zip!/NetworkDisconnected.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/icons.zip!/quit.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/Ikony.zip!/Ikony/16x16/bold3.png">
@@ -978,6 +938,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1626#1627#0" expanded="false" />
+            <element signature="e#1687#1688#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -998,22 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.032258064">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gui/TestTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gui/ToolBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1042,79 +991,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gui/FormPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/awt/event/MouseAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3318584">
           <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gui/CenterPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="227" column="53" selection-start-line="227" selection-start-column="53" selection-end-line="227" selection-end-column="53" />
-          <folding>
-            <element signature="method#addTab#0;class#CenterPanel#0" expanded="false" />
-            <element signature="method#RemoveTab#0;class#CenterPanel#0" expanded="false" />
-            <element signature="method#ResizeTab#0;class#CenterPanel#0" expanded="false" />
-            <element signature="method#SaveTable#0;class#CenterPanel#0" expanded="false" />
-            <element signature="method#stopTabNameEditing#0;class#CenterPanel#0" expanded="false" />
-            <element signature="class#6221:7399" expanded="false" />
-            <element signature="e#9627#9641#0" expanded="true" />
-            <element signature="e#9975#9989#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SheetComponent/SpreadSheet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="347" column="33" selection-start-line="347" selection-start-column="33" selection-end-line="347" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SheetComponent/Interpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="30.310345">
-          <caret line="106" column="27" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SheetComponent/SheetCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SheetComponent/CellMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1129,7 +1009,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Gui/FontChooser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22405271">
+        <state vertical-scroll-proportion="0.0">
           <caret line="380" column="45" selection-start-line="380" selection-start-column="45" selection-end-line="380" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1156,6 +1036,110 @@
             <element signature="e#18651#18652#0" expanded="true" />
             <element signature="e#18704#18705#0" expanded="true" />
             <element signature="e#18783#18784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/TestTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/FormPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/ToolBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.62069">
+          <caret line="73" column="34" selection-start-line="73" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/CenterPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <element signature="method#RemoveTab#0;class#CenterPanel#0" expanded="false" />
+            <element signature="method#ResizeTab#0;class#CenterPanel#0" expanded="false" />
+            <element signature="method#SaveTable#0;class#CenterPanel#0" expanded="false" />
+            <element signature="method#stopTabNameEditing#0;class#CenterPanel#0" expanded="false" />
+            <element signature="class#6336:7514" expanded="false" />
+            <element signature="e#9742#9756#0" expanded="true" />
+            <element signature="e#10090#10104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SheetComponent/SpreadSheetModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SheetComponent/Interpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="27" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SheetComponent/SheetCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SheetComponent/CellMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SheetComponent/SpreadSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.965517">
+          <caret line="365" column="0" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3185#3661#0" expanded="true" />
+            <element signature="e#3660#3661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/FormulaBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41371682">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

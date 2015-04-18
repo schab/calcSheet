@@ -29,15 +29,15 @@ public class CenterPanel extends FormPanel{
     private int tabIndex;  // used in creating unique initial tab titles
     private MultiOptionPane multiOptionPane;
     private int location;
+    private FormulaBar formulaBar;
 
-
-    public CenterPanel(String col, String row) {
+    public CenterPanel(String col, String row,FormulaBar formulaBar) {
         super(col, row);
         this.location = JTabbedPane.BOTTOM;
+        this.formulaBar = formulaBar;
         initializeComponents();
         initializeTabbedPane();
         setupTabTraversalKeys();
-
         this.addXY(jTabbedPane, 1, 2);
     }
 
@@ -49,7 +49,7 @@ public class CenterPanel extends FormPanel{
 
 
     private void initializeTabbedPane(){
-        SpreadSheet spreadSheet = new SpreadSheet(20, 20);
+        SpreadSheet spreadSheet = new SpreadSheet(20, 20,formulaBar);
         sheetTable.add(spreadSheet);
         tabIndex = 1;
         jTabbedPane.addTab("Arkusz", spreadSheet.getScrollPane());
@@ -93,7 +93,7 @@ public class CenterPanel extends FormPanel{
 
             // set the tab's component to a JTable first, to allow newTabContent to be added to the new "new tab" tab
             int newGroupIndex = jTabbedPane.getTabCount()-1;
-            SpreadSheet newSheet = new SpreadSheet(col,row);
+            SpreadSheet newSheet = new SpreadSheet(col,row,formulaBar);
             sheetTable.add(newSheet);
             jTabbedPane.setComponentAt(newGroupIndex, newSheet.getScrollPane());
 

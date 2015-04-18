@@ -1,5 +1,7 @@
 package SheetComponent;
 
+import Gui.FormulaBar;
+
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
@@ -215,12 +217,15 @@ public class SpreadSheet extends JTable {
      *
      * @param numRow The number of row in the spreadsheet
      * @param numColumn The number of column in the spreadsheet
-     * @param tabIndex The index number of tabIndex
+     * @param formulaBar formulaBar
 	 */
-    public SpreadSheet(int numRow, int numColumn) {
+    public SpreadSheet(int numRow, int numColumn, FormulaBar formulaBar) {
       this(null, numRow, numColumn);
-    }
+	  this.formulaBar = formulaBar;
 
+	}
+
+	private FormulaBar formulaBar;
     /**
      * Build a SheetComponent.SheetComponent included in a JScrollPane
      * from the cells given as argument.
@@ -353,13 +358,16 @@ public class SpreadSheet extends JTable {
 	setFont(sc.font);
 
 
-	if (isSelected) {
+		  if (isSelected) {
 	  setBorder(_selectBorder);
-	  setToolTipText("Right-click to change the cell's colors.");
-	  
-	} else {
+			  setToolTipText("Right-click to change the cell's colors.");
+
+			  String str = "" + getColumnName(sc.column) + (sc.row+1);
+			  formulaBar.setCellButton(str);
+
+		  } else {
 	  setBorder(_emptyBorder);
-	  setToolTipText("Single-Click to select a cell, " +
+			  setToolTipText("Single-Click to select a cell, " +
 			 "double-click to edit.");
 	}
 

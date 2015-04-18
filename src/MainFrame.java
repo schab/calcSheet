@@ -1,7 +1,5 @@
 import Gui.*;
 import Gui.MenuBar;
-import SheetComponent.SpreadSheet;
-
 
 import javax.swing.*;
 import java.awt.*;
@@ -17,7 +15,7 @@ public class MainFrame extends JFrame {
     private static final int HEIGHT = 600;
 
     private static final String formColumns =   "pref:grow";
-    private static final String formRows    =   "40px,10px,pref:grow,15px";
+    private static final String formRows    =   "40px,35px,pref:grow,15px";
 
     private static final String tabbedColumns = "pref:grow";
     private static final String tabbedRows    = "10px,pref:grow,10px";
@@ -72,14 +70,15 @@ public class MainFrame extends JFrame {
 
         jPanel = new FormPanel(formColumns,formRows);
         logPanel = new LogPanel();
-        centerPanel = new CenterPanel(tabbedColumns,tabbedRows);
+        formulaBar = new FormulaBar();
+        centerPanel = new CenterPanel(tabbedColumns,tabbedRows,formulaBar);
         jtb = new ToolBar(jtbColumns,jtbRows);
         jMenuBar = new MenuBar();
-
 
         jPanel.addXY(centerPanel, 1, 3);
         jPanel.addXY(logPanel, 1, 4);
         jPanel.addXY(jtb,1,1);
+        jPanel.addXY(formulaBar,1,2);
 
     }
 
@@ -129,8 +128,6 @@ public class MainFrame extends JFrame {
     private JToolBar jtb;
     private JMenuBar jMenuBar;
     private CenterPanel centerPanel;
-
-
-    private SpreadSheet spreadSheet;
+    private FormulaBar formulaBar;
 
 }
