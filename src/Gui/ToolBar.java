@@ -13,9 +13,9 @@ import java.util.ArrayList;
 public class ToolBar extends JToolBar implements ActionListener{
 
     private ArrayList<JComponent> jtbElements;
-    private String[] fontList = { "Arial", "Times new Roman", "Tahoma", "Celtic", "Gisha" };
+   // private String[] fontList = { "Arial", "Times new Roman", "Tahoma", "Celtic", "Gisha" };
     private String[] fontSizeList = {"4","6","8","10","12","14","16","18","20","22","24","26","28","30","32" };
-
+    private FontChooserComboBox fccb;
 
     private String cols;
     private String rows;
@@ -35,6 +35,10 @@ public class ToolBar extends JToolBar implements ActionListener{
 
     private void initializeToolBarComponents(){
 
+
+        fccb = new FontChooserComboBox();
+        fccb.addActionListener(this);
+
         // first row
 
         jtbElements.add(0, this.createToolBarButton("New", Images.New.getIcon(20, 20), true, this));
@@ -42,7 +46,7 @@ public class ToolBar extends JToolBar implements ActionListener{
         jtbElements.add(2, this.createToolBarButton("Save", Images.Save.getIcon(20, 20), true, this));
         jtbElements.add(3, this.createToolBarButton("Print", Images.Print.getIcon(20, 20), true, this));
         jtbElements.add(4, new JSeparator(VERTICAL));
-        jtbElements.add(5, new JComboBox(fontList));
+        jtbElements.add(5, fccb);
         jtbElements.add(6, new JComboBox(fontSizeList));
         jtbElements.add(7, new JSeparator(VERTICAL));
         jtbElements.add(8, this.createToolBarButton("Bold", Images.Bold.getIcon(20, 20), true, this));
