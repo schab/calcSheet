@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c55a8b4f-fd25-45a6-939b-367e07386f53" name="Default" comment="GuiChanges v 1.2">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$1.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$2.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent$1.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent$2.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent$3.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent$4.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel$TabComponent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/CenterPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/MultiOptionPane.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/Gui/MultiOptionPane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SheetComponent/CellMenu.java" afterPath="$PROJECT_DIR$/src/SheetComponent/CellMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gui/CenterPanel.java" afterPath="$PROJECT_DIR$/src/Gui/CenterPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gui/MultiOptionPane.java" afterPath="$PROJECT_DIR$/src/Gui/MultiOptionPane.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SheetComponent/SpreadSheetModel.java" afterPath="$PROJECT_DIR$/src/SheetComponent/SpreadSheetModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projektLog.log" afterPath="$PROJECT_DIR$/projektLog.log" />
+    <list default="true" id="c55a8b4f-fd25-45a6-939b-367e07386f53" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/SheetComponent/CellMenu.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/SheetComponent/CellMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/SheetComponent/SpreadSheetModel.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/SheetComponent/SpreadSheetModel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="0c63b839-f9fe-4c3d-b82d-806e2ae36eef" name="Update" comment="Gui changes" />
@@ -120,7 +108,7 @@
       <file leaf-file-name="SpreadSheet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SheetComponent/SpreadSheet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53741497">
+            <state vertical-scroll-proportion="1.9251701">
               <caret line="305" column="9" selection-start-line="305" selection-start-column="9" selection-end-line="305" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -173,6 +161,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Sobiech &lt;kacper.sobisz@gmail.com&gt;" />
         <option value="Sobiech" />
       </list>
     </option>
@@ -654,7 +643,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429350345126</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="JTabbedPAne v 1.1">
+      <created>1429356579884</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1429356579884</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -662,7 +657,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -671,7 +666,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4472441" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4472441" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24409449" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -739,7 +734,8 @@
     <MESSAGE value="GuiChanges v 1.0" />
     <MESSAGE value="GuiChanges v 1.1" />
     <MESSAGE value="GuiChanges v 1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="GuiChanges v 1.2" />
+    <MESSAGE value="JTabbedPAne v 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="JTabbedPAne v 1.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1206,7 +1202,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SheetComponent/SpreadSheet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53741497">
+        <state vertical-scroll-proportion="1.9251701">
           <caret line="305" column="9" selection-start-line="305" selection-start-column="9" selection-end-line="305" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
