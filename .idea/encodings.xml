@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/Gui/CenterPanel.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Gui/MultiOptionPane.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/SheetComponent/CellMenu.java" charset="UTF-8" />
   </component>
 </project>

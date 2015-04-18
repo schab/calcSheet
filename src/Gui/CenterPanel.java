@@ -14,6 +14,8 @@ import java.awt.event.*;
 import java.io.File;
 import java.io.FileWriter;
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Created by Kacper on 2015-04-10.
@@ -34,6 +36,7 @@ public class CenterPanel extends FormPanel{
         this.location = JTabbedPane.BOTTOM;
         initializeComponents();
         initializeTabbedPane();
+        setupTabTraversalKeys();
 
         this.addXY(jTabbedPane, 1, 2);
     }
@@ -60,8 +63,6 @@ public class CenterPanel extends FormPanel{
         });
 
         newTabContent = new JPanel();
-
-        // when the "new tab" tab is selected and its component is displayed, add a new tab
         newTabContent.addComponentListener(new ComponentAdapter() {
             public void componentShown(ComponentEvent e) {
                 addTab();
@@ -69,7 +70,8 @@ public class CenterPanel extends FormPanel{
         });
 
         jTabbedPane.addTab("+", newTabContent);
-        jTabbedPane.setFont(Fonts.Calibri.font());
+        jTabbedPane.setFont(Fonts.CalibriSmall.font());
+
         jTabbedPane.setOpaque(false);
     }
 
@@ -101,7 +103,6 @@ public class CenterPanel extends FormPanel{
             tabComp.startNameEditing();
         }
     }
-
     public void RemoveTab(){
         if(jTabbedPane.getTabCount() > 1) {
             int index = jTabbedPane.getSelectedIndex();
@@ -111,12 +112,9 @@ public class CenterPanel extends FormPanel{
             multiOptionPane.showErrorPane("Nie znaleziono zakładki do usunięcia!", "Błąd!");
         }
     }
-
     public void ResizeTab(){
 
     }
-
-
     public void SaveTable(){
 
         int index = jTabbedPane.getSelectedIndex();
@@ -165,7 +163,7 @@ public class CenterPanel extends FormPanel{
             tabIndex++;
             title.setOpaque(false);
             final TabComponent self = this;
-            title.setFont(Fonts.Calibri.font());
+            title.setFont(Fonts.CalibriSmall.font());
             title.setForeground(Colors.Black.color(0.5f));
             title.addMouseListener(new MouseAdapter() {
                 public void mouseClicked(MouseEvent evt) {
@@ -182,13 +180,11 @@ public class CenterPanel extends FormPanel{
                     stopNameEditing();
                 }
             });
-
             title.addFocusListener(new FocusAdapter() {
                 public void focusLost(FocusEvent evt) {
                     stopNameEditing();
                 }
             });
-
             editingCaret = title.getCaret();
             nonEditingCaret = new Caret() {  // no-op implementation just to disable the caret and selection
                 public void addChangeListener(javax.swing.event.ChangeListener l) { }
@@ -257,5 +253,28 @@ public class CenterPanel extends FormPanel{
 
             }
         }
+    }
+
+
+    private void setupTabTraversalKeys()
+    {
+
+        KeyStroke ctrlTab = KeyStroke.getKeyStroke("ctrl TAB");
+        KeyStroke ctrlShiftTab = KeyStroke.getKeyStroke("ctrl shift TAB");
+
+        // Remove ctrl-tab from normal focus traversal
+        Set<AWTKeyStroke> forwardKeys = new HashSet<AWTKeyStroke>(jTabbedPane.getFocusTraversalKeys(KeyboardFocusManager.FORWARD_TRAVERSAL_KEYS));
+        forwardKeys.remove(ctrlTab);
+        jTabbedPane.setFocusTraversalKeys(KeyboardFocusManager.FORWARD_TRAVERSAL_KEYS, forwardKeys);
+
+        // Remove ctrl-shift-tab from normal focus traversal
+        Set<AWTKeyStroke> backwardKeys = new HashSet<AWTKeyStroke>(jTabbedPane.getFocusTraversalKeys(KeyboardFocusManager.BACKWARD_TRAVERSAL_KEYS));
+        backwardKeys.remove(ctrlShiftTab);
+        jTabbedPane.setFocusTraversalKeys(KeyboardFocusManager.BACKWARD_TRAVERSAL_KEYS, backwardKeys);
+
+        // Add keys to the tab's input map
+        InputMap inputMap = jTabbedPane.getInputMap(JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
+        inputMap.put(ctrlTab, "navigateNext");
+        inputMap.put(ctrlShiftTab, "navigatePrevious");
     }
 }

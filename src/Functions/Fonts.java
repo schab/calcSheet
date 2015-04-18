@@ -8,8 +8,9 @@ import java.awt.*;
 public enum Fonts {
 
 
-    Calibri(new Font("Calibri",Font.TYPE1_FONT,14)),
-    Segoe(new Font("Segoe UI", Font.BOLD, 14));
+    Calibri(new Font("Calibri",Font.PLAIN,14)),
+    Segoe(new Font("Segoe UI", Font.BOLD, 14)),
+    CalibriSmall(new Font("Calibri",Font.PLAIN,12));
 
     private Font _font;
     private int _size;

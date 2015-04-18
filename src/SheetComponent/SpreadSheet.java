@@ -350,6 +350,7 @@ public class SpreadSheet extends JTable {
 
 	setForeground(sc.foreground);
 	setBackground(sc.background);
+	setFont(sc.font);
 
 
 	if (isSelected) {

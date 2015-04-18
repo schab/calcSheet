@@ -1,5 +1,7 @@
 package SheetComponent;
 
+import Functions.Fonts;
+
 import java.awt.*;
 import java.util.*;
 
@@ -32,6 +34,7 @@ class SheetCell {
   Vector listenees;
   Color  background;
   Color  foreground;
+  Font font;
   int    row;
   int    column;
 
@@ -47,6 +50,7 @@ class SheetCell {
     listenees  = new Vector();
     background = Color.white;
     foreground = Color.black;
+    font       = Fonts.CalibriSmall.font();
   }
 
 
