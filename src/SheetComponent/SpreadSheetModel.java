@@ -54,7 +54,6 @@ class SpreadSheetModel extends AbstractTableModel {
     public boolean isCellEditable(int row, int col) { return true; }
 
     public Object  getValueAt(int row, int column) { return cells[row][column]; }
-
     /**
      * Mark the corresponding cell
      * as being edited. Its formula

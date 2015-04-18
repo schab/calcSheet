@@ -24,20 +24,17 @@ class CellMenu extends JPopupMenu implements ActionListener {
   static private final String _FOREGROUND = "Kolor czcionki";
   static private final String _BACKGROUND = "Kolor tła";
   static private final String _FONT       = "Czcionka";
-  static private final String _EDITABLE   = "Editable";
 
-  //private SheetComponent.SheetCell   _targetCells[];
   private Object      _targetCells[];
   private JWindow     _colorWindow;
   private SpreadSheet _sp;
   private FontChooser jFontChooser;
-  private Component component;
   CellMenu(SpreadSheet parent) {
     
     _sp = parent;
 
 
-    setDefaultLightWeightPopupEnabled(true);
+//    setDefaultLightWeightPopupEnabled(true);
 
     JMenuItem item = new JMenuItem(_FOREGROUND);
     item.addActionListener(this);

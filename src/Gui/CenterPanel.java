@@ -30,7 +30,8 @@ public class CenterPanel extends FormPanel{
     private MultiOptionPane multiOptionPane;
     private int location;
     private FormulaBar formulaBar;
-
+    private PopMenu popupMenu;
+    
     public CenterPanel(String col, String row,FormulaBar formulaBar) {
         super(col, row);
         this.location = JTabbedPane.BOTTOM;
@@ -46,12 +47,12 @@ public class CenterPanel extends FormPanel{
         jTabbedPane = new JTabbedPane(location);
         multiOptionPane = new MultiOptionPane();
     }
-
-
     private void initializeTabbedPane(){
         SpreadSheet spreadSheet = new SpreadSheet(20, 20,formulaBar);
+        popupMenu = new PopMenu();
         sheetTable.add(spreadSheet);
         tabIndex = 1;
+        jTabbedPane.setComponentPopupMenu(popupMenu);
         jTabbedPane.addTab("Arkusz", spreadSheet.getScrollPane());
 
         jTabbedPane.setTabComponentAt(0, new TabComponent());
@@ -68,10 +69,9 @@ public class CenterPanel extends FormPanel{
                 addTab();
             }
         });
-
         jTabbedPane.addTab("+", newTabContent);
-        jTabbedPane.setFont(Fonts.CalibriSmall.font());
 
+        jTabbedPane.setFont(Fonts.CalibriSmall.font());
         jTabbedPane.setOpaque(false);
     }
 
@@ -112,9 +112,6 @@ public class CenterPanel extends FormPanel{
             multiOptionPane.showErrorPane("Nie znaleziono zakładki do usunięcia!", "Błąd!");
         }
     }
-    public void ResizeTab(){
-
-    }
     public void SaveTable(){
 
         int index = jTabbedPane.getSelectedIndex();
@@ -126,13 +123,54 @@ public class CenterPanel extends FormPanel{
 
         if (retrival == JFileChooser.APPROVE_OPTION) {
             try {
-                FileWriter fw = new FileWriter(chooser.getSelectedFile()+".txt");
+                FileWriter fw = new FileWriter(chooser.getSelectedFile());
                 fw.write(data.toString());
                 fw.close();
 
             } catch (Exception ex) {
                 ex.printStackTrace();
             }
+        }
+    }
+    public void ResizeTab(){
+
+        stopTabNameEditing();
+
+        for(int i = 0; i < jTabbedPane.getTabCount()-1; i++) {
+            SpreadSheet table = sheetTable.get(i);
+            if(table.isEditing())
+                table.getCellEditor().stopCellEditing();
+            table.clearSelection();
+        }
+
+        int index = jTabbedPane.getSelectedIndex();
+        SpreadSheet temporarySheet = sheetTable.get(index);
+        multiOptionPane.showDialog();
+        int col = multiOptionPane.getColumns() , row = multiOptionPane.getRows();
+
+        if(col>0 && row>0) {
+            SpreadSheet newSheet = new SpreadSheet(col, row, formulaBar);
+            for(int i = 0 ; i < newSheet.getRowCount();i++)
+                if(temporarySheet.getRowCount() > i)
+                for(int j = 0 ; j < newSheet.getColumnCount();j++) {
+                    if (temporarySheet.getColumnCount() > j) {
+                        Object str = temporarySheet.getValueAt(i, j).toString();
+                        if (str != null)
+                            newSheet.setValueAt(str, i, j);
+                    }
+                }
+
+            sheetTable.remove(index);
+            sheetTable.add(index, newSheet);
+            RemoveTab();
+            jTabbedPane.setComponentAt(index, newSheet.getScrollPane());
+
+            jTabbedPane.addTab("+", newTabContent);
+            TabComponent tabComp = new TabComponent();
+            jTabbedPane.setTabComponentAt(index, tabComp);
+            tabComp.startNameEditing();
+            jTabbedPane.setSelectedIndex(index);
+
         }
     }
 
@@ -149,6 +187,7 @@ public class CenterPanel extends FormPanel{
     public JTabbedPane getjTabbedPane(){ return jTabbedPane;}
 
 
+
     private class TabComponent extends JPanel{
         private JTextField title;
         private Caret editingCaret;
@@ -159,6 +198,7 @@ public class CenterPanel extends FormPanel{
 
         public TabComponent() {
             setOpaque(false);
+            this.setInheritsPopupMenu(true);
             title = new JTextField("Arkusz " + tabIndex);
             tabIndex++;
             title.setOpaque(false);
@@ -167,10 +207,12 @@ public class CenterPanel extends FormPanel{
             title.setForeground(Colors.Black.color(0.5f));
             title.addMouseListener(new MouseAdapter() {
                 public void mouseClicked(MouseEvent evt) {
-                    if (evt.getClickCount() == 1) {
-                        jTabbedPane.setSelectedIndex(jTabbedPane.indexOfTabComponent(self));
-                    } else if (evt.getClickCount() == 2) {
-                        startNameEditing();
+                    if (evt.getButton()!=3){
+                        if (evt.getClickCount() == 1) {
+                            jTabbedPane.setSelectedIndex(jTabbedPane.indexOfTabComponent(self));
+                        } else if (evt.getClickCount() == 2) {
+                            startNameEditing();
+                        }
                     }
                 }
             });
@@ -214,9 +256,7 @@ public class CenterPanel extends FormPanel{
             title.setBorder(nonEditingBorder);
             add(title);
         }
-
-
-        private void startNameEditing() {
+        public void startNameEditing() {
 
             title.setForeground(Colors.Black.color(0.7f));
             title.requestFocusInWindow();
@@ -235,8 +275,6 @@ public class CenterPanel extends FormPanel{
             // add one extra column so that all the text is displayed
             title.setColumns(columns + 11);
         }
-
-
         private void stopNameEditing() {
             if(title.isEditable()) {
                 title.setEditable(false);
@@ -254,10 +292,45 @@ public class CenterPanel extends FormPanel{
             }
         }
     }
+    private class PopMenu   extends JPopupMenu implements ActionListener{
 
+        static private final String _RESIZE= "Zmień rozmiar";
+        static private final String _NEWTAB= "Dodaj arkusz";
+        static private final String _DELETE= "Usuń arkusz";
+        static private final String _SAVE  = "Zapisz arkusz";
 
-    private void setupTabTraversalKeys()
-    {
+        public PopMenu(){
+
+            JMenuItem item = new JMenuItem(_RESIZE);
+            item.addActionListener(this);
+            add(item);
+            item = new JMenuItem(_NEWTAB);
+            item.addActionListener(this);
+            add(item);
+
+            item = new JMenuItem(_DELETE);
+            item.addActionListener(this);
+            add(item);
+
+            item = new JMenuItem(_SAVE);
+            item.addActionListener(this);
+            add(item);
+
+            pack();
+        }
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            if(e.getActionCommand()==_NEWTAB)
+                addTab();
+            else if(e.getActionCommand() == _DELETE)
+                RemoveTab();
+            else if(e.getActionCommand() == _RESIZE)
+                ResizeTab();
+            else if(e.getActionCommand() == _SAVE)
+                SaveTable();
+        }
+    }
+    private void setupTabTraversalKeys() {
 
         KeyStroke ctrlTab = KeyStroke.getKeyStroke("ctrl TAB");
         KeyStroke ctrlShiftTab = KeyStroke.getKeyStroke("ctrl shift TAB");

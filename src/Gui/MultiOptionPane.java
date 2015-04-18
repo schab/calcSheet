@@ -29,6 +29,10 @@ public class MultiOptionPane {
                 if(columns <= 0 || rows <= 0)
                     showErrorPane("Wprowadzono błędną wartość, mniejszą lub równą zero !","Błąd!");
 
+                else if (columns >=1000 && rows >= 1000){
+                   showErrorPane("Wprowadzona wartość jest zbyt duża !","Błąd");
+                }
+
             }catch(NumberFormatException e){
                     showErrorPane("Jedna lub dwie wartości są błędnie wprowadzone !","Błąd");
             }
