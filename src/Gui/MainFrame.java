@@ -1,5 +1,4 @@
-import Gui.*;
-import Gui.MenuBar;
+package Gui;
 
 import javax.swing.*;
 import java.awt.*;
@@ -127,7 +126,7 @@ public class MainFrame extends JFrame {
     private FormPanel jPanel;
     private JToolBar jtb;
     private JMenuBar jMenuBar;
-    private CenterPanel centerPanel;
+    protected static CenterPanel centerPanel;
     private FormulaBar formulaBar;
 
 }

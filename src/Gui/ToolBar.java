@@ -5,7 +5,10 @@ import Functions.Images;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.print.PrinterException;
+import java.awt.print.PrinterJob;
 import java.util.ArrayList;
+
 
 /**
  * Created by Kacper on 2015-03-30.
@@ -114,7 +117,26 @@ public class ToolBar extends JToolBar implements ActionListener{
 
         if(e.getSource().equals(jtbElements.get(0))){
 
-            System.out.print("dziala");
+            MainFrame.centerPanel.addTab();
+        }
+
+        if(e.getSource().equals(jtbElements.get(2))){
+
+            MainFrame.centerPanel.SaveTable();
+        }
+
+        if(e.getSource().equals(jtbElements.get(3))){
+
+            PrinterJob job = PrinterJob.getPrinterJob();
+            job.setPrintable(MainFrame.centerPanel);
+            boolean ok = job.printDialog();
+            if (ok) {
+                try {
+                    job.print();
+                } catch (PrinterException ex) {
+              /* The job did not successfully complete */
+                }
+            }
         }
 
 
