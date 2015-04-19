@@ -53,7 +53,7 @@ public class SpreadSheet extends JTable {
      * the SheetComponent.SheetComponent.
      */
     private CellRenderer _renderer;
-    public static Font         _cellFont;
+    public  Font         _cellFont;
   //private FontMetrics  _metrics;
 
     // Cells selected.

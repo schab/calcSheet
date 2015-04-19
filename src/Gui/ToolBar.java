@@ -21,12 +21,16 @@ public class ToolBar extends JToolBar implements ActionListener{
 
     private ArrayList<JComponent> jtbElements;
    // private String[] fontList = { "Arial", "Times new Roman", "Tahoma", "Celtic", "Gisha" };
-    private String[] fontSizeList = {"4","6","8","10","12","14","16","18","20","22","24","26","28","30","32" };
+    private Integer[] fontSizeList = {4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48 };
     private FontChooserComboBox fccb;
+    private JComboBox fsl;
 
     private String cols;
     private String rows;
     private FormPanel jPanel;
+    private boolean isBold = false;
+    private boolean isItalic = false;
+    private boolean isUnderline = false;
 
     public ToolBar(String x,String y){
         this.cols = x;
@@ -44,7 +48,12 @@ public class ToolBar extends JToolBar implements ActionListener{
 
 
         fccb = new FontChooserComboBox();
+        fccb.setSelectedItem("Calibri");
+        fsl  = new JComboBox(fontSizeList);
+        fsl.setSelectedItem(20);
+
         fccb.addActionListener(this);
+        fsl.addActionListener(this);
 
         // first row
 
@@ -54,7 +63,7 @@ public class ToolBar extends JToolBar implements ActionListener{
         jtbElements.add(3, this.createToolBarButton("Print", Images.Print.getIcon(20, 20), true, this));
         jtbElements.add(4, new JSeparator(VERTICAL));
         jtbElements.add(5, fccb);
-        jtbElements.add(6, new JComboBox(fontSizeList));
+        jtbElements.add(6, fsl);
         jtbElements.add(7, new JSeparator(VERTICAL));
         jtbElements.add(8, this.createToolBarButton("Bold", Images.Bold.getIcon(20, 20), true, this));
         jtbElements.add(9, this.createToolBarButton("Italic", Images.Italic.getIcon(20, 20), true, this));
@@ -149,17 +158,112 @@ public class ToolBar extends JToolBar implements ActionListener{
 
             String fontName = fccb.getSelectedFontName();
             fontName = (fontName != null ? fontName : "");
-
+            int fontSizeIndex = fsl.getSelectedIndex();
 
             for (int ii=0; ii<SpreadSheet._selection.length; ii++) {
                 SheetCell sc = (SheetCell) SpreadSheet._selection[ii];
-                sc.font = new Font(fontName, Font.PLAIN, 20);
+                sc.font = new Font(fontName, Font.PLAIN, fontSizeList[fontSizeIndex]);
                 CenterPanel.sheetTable.get(CenterPanel.jTabbedPane.getSelectedIndex()).repaint();
             }
 
 
 
         }
+
+        if(e.getSource().equals(jtbElements.get(6))){
+
+
+            String fontName = fccb.getSelectedFontName();
+            fontName = (fontName != null ? fontName : "");
+            int fontSizeIndex = fsl.getSelectedIndex();
+
+            for (int ii=0; ii<SpreadSheet._selection.length; ii++) {
+                SheetCell sc = (SheetCell) SpreadSheet._selection[ii];
+                sc.font = new Font(fontName, Font.PLAIN, fontSizeList[fontSizeIndex]);
+                CenterPanel.sheetTable.get(CenterPanel.jTabbedPane.getSelectedIndex()).repaint();
+            }
+
+
+
+        }
+
+        if(e.getSource().equals(jtbElements.get(8))){
+
+
+            String fontName = fccb.getSelectedFontName();
+            fontName = (fontName != null ? fontName : "");
+            int fontSizeIndex = fsl.getSelectedIndex();
+
+
+            if(isBold) {
+                for (int ii = 0; ii < SpreadSheet._selection.length; ii++) {
+                    SheetCell sc = (SheetCell) SpreadSheet._selection[ii];
+                    sc.font = new Font(fontName, Font.PLAIN, fontSizeList[fontSizeIndex]);
+                    CenterPanel.sheetTable.get(CenterPanel.jTabbedPane.getSelectedIndex()).repaint();
+                    isBold = false;
+                }
+            }else {
+                for (int ii = 0; ii < SpreadSheet._selection.length; ii++) {
+                    SheetCell sc = (SheetCell) SpreadSheet._selection[ii];
+                    sc.font = new Font(fontName, Font.BOLD, fontSizeList[fontSizeIndex]);
+                    CenterPanel.sheetTable.get(CenterPanel.jTabbedPane.getSelectedIndex()).repaint();
+                    isBold = true;
+                }
+            }
+
+        }
+
+        if(e.getSource().equals(jtbElements.get(9))){
+
+
+            String fontName = fccb.getSelectedFontName();
+            fontName = (fontName != null ? fontName : "");
+            int fontSizeIndex = fsl.getSelectedIndex();
+
+
+            if(isItalic) {
+                for (int ii = 0; ii < SpreadSheet._selection.length; ii++) {
+                    SheetCell sc = (SheetCell) SpreadSheet._selection[ii];
+                    sc.font = new Font(fontName, Font.PLAIN, fontSizeList[fontSizeIndex]);
+                    CenterPanel.sheetTable.get(CenterPanel.jTabbedPane.getSelectedIndex()).repaint();
+                    isItalic = false;
+                }
+            }else {
+                for (int ii = 0; ii < SpreadSheet._selection.length; ii++) {
+                    SheetCell sc = (SheetCell) SpreadSheet._selection[ii];
+                    sc.font = new Font(fontName, Font.ITALIC, fontSizeList[fontSizeIndex]);
+                    CenterPanel.sheetTable.get(CenterPanel.jTabbedPane.getSelectedIndex()).repaint();
+                    isItalic = true;
+                }
+            }
+
+        }
+
+//        if(e.getSource().equals(jtbElements.get(9))){
+//
+//
+//            String fontName = fccb.getSelectedFontName();
+//            fontName = (fontName != null ? fontName : "");
+//            int fontSizeIndex = fsl.getSelectedIndex();
+//
+//
+//            if(isUnderline) {
+//                for (int ii = 0; ii < SpreadSheet._selection.length; ii++) {
+//                    SheetCell sc = (SheetCell) SpreadSheet._selection[ii];
+//                    sc.font = new Font(fontName, Font.PLAIN, fontSizeList[fontSizeIndex]);
+//                    CenterPanel.sheetTable.get(CenterPanel.jTabbedPane.getSelectedIndex()).repaint();
+//                    isUnderline = false;
+//                }
+//            }else {
+//                for (int ii = 0; ii < SpreadSheet._selection.length; ii++) {
+//                    SheetCell sc = (SheetCell) SpreadSheet._selection[ii];
+//                    sc.font = new Font(fontName, Font., fontSizeList[fontSizeIndex]);
+//                    CenterPanel.sheetTable.get(CenterPanel.jTabbedPane.getSelectedIndex()).repaint();
+//                    isUnderline = true;
+//                }
+//            }
+//
+//        }
 
 
     }
