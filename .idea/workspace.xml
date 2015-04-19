@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c55a8b4f-fd25-45a6-939b-367e07386f53" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\Hubert\Documents\GitHub\calcSheets\src\MainFrame.java" afterPath="$PROJECT_DIR$/src/Gui/MainFrame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/SheetComponent/CellMenu.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/SheetComponent/CellMenu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpreadSheet/SheetComponent/SpreadSheetModel.class" afterPath="$PROJECT_DIR$/out/production/SpreadSheet/SheetComponent/SpreadSheetModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gui/CenterPanel.java" afterPath="$PROJECT_DIR$/src/Gui/CenterPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gui/ToolBar.java" afterPath="$PROJECT_DIR$/src/Gui/ToolBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projektLog.log" afterPath="$PROJECT_DIR$/projektLog.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="0c63b839-f9fe-4c3d-b82d-806e2ae36eef" name="Update" comment="Gui changes" />
@@ -611,7 +607,7 @@
       <workItem from="1429123414839" duration="11043000" />
       <workItem from="1429355711207" duration="423000" />
       <workItem from="1429438689230" duration="8317000" />
-      <workItem from="1429453909230" duration="473000" />
+      <workItem from="1429453909230" duration="483000" />
     </task>
     <task id="LOCAL-00001" summary="Toolbar v 0.1">
       <created>1428992295601</created>
@@ -745,11 +741,17 @@
       <option name="project" value="LOCAL" />
       <updated>1429445470380</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Printer Implementation v 1.0 Alpha">
+      <created>1429454389588</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1429454389588</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41209000" />
+    <option name="totallyTimeSpent" value="41219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
