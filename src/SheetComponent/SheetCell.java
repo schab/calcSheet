@@ -12,7 +12,7 @@ import java.util.*;
  * @version 1.0 July-2002
  * @author  Hubert Swiecioch
  */
-class SheetCell {
+public class SheetCell {
 
   /**
    * Set this field to true and recompile
@@ -34,7 +34,7 @@ class SheetCell {
   Vector listenees;
   Color  background;
   Color  foreground;
-  Font font;
+  public static Font font;
   int    row;
   int    column;
 

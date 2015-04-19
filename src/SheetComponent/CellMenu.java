@@ -13,7 +13,7 @@ import java.awt.event.*;
  *
  * @author  Hubert Swiecioch
  */
-class CellMenu extends JPopupMenu implements ActionListener {
+public class CellMenu extends JPopupMenu implements ActionListener {
 
   /**
    * Set this field to true and recompile
@@ -49,7 +49,7 @@ class CellMenu extends JPopupMenu implements ActionListener {
     pack();
   }
 
-  void setTargetCells( Object c[]) { _targetCells = c; }
+  public void setTargetCells( Object c[]) { _targetCells = c; }
 
   public void actionPerformed(ActionEvent ev) {
 
@@ -92,6 +92,9 @@ class CellMenu extends JPopupMenu implements ActionListener {
 
 
 
+
   }
+
+
   
 }

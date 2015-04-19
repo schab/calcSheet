@@ -27,9 +27,9 @@ import java.util.Set;
 
 public  class CenterPanel extends FormPanel implements Printable{
 
-    private JTabbedPane jTabbedPane;
+    protected static JTabbedPane jTabbedPane;
     private JPanel newTabContent;   // the empty JPanel of the "new tab" tab
-    private ArrayList<SpreadSheet> sheetTable;
+    protected static ArrayList<SpreadSheet> sheetTable;
     private int tabIndex;  // used in creating unique initial tab titles
     private MultiOptionPane multiOptionPane;
     private int location;

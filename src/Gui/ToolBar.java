@@ -2,7 +2,11 @@ package Gui;
 
 import Functions.Images;
 
+import SheetComponent.SheetCell;
+import SheetComponent.SpreadSheet;
+
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.print.PrinterException;
@@ -137,6 +141,24 @@ public class ToolBar extends JToolBar implements ActionListener{
               /* The job did not successfully complete */
                 }
             }
+        }
+
+
+        if(e.getSource().equals(jtbElements.get(5))){
+
+
+            String fontName = fccb.getSelectedFontName();
+            fontName = (fontName != null ? fontName : "");
+
+
+            for (int ii=0; ii<SpreadSheet._selection.length; ii++) {
+                SheetCell sc = (SheetCell) SpreadSheet._selection[ii];
+                sc.font = new Font(fontName, Font.PLAIN, 20);
+                CenterPanel.sheetTable.get(CenterPanel.jTabbedPane.getSelectedIndex()).repaint();
+            }
+
+
+
         }
 
 

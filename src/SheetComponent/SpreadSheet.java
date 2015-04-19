@@ -40,7 +40,7 @@ public class SpreadSheet extends JTable {
     public static final boolean DEBUG = true;
 
     private JScrollPane      _scp;
-    private CellMenu         _popupMenu;
+    public static CellMenu         _popupMenu;
     private SpreadSheetModel _model;
     private int              _numRow;
     private int              _numCol;
@@ -53,11 +53,11 @@ public class SpreadSheet extends JTable {
      * the SheetComponent.SheetComponent.
      */
     private CellRenderer _renderer;
-    private Font         _cellFont;
+    public static Font         _cellFont;
   //private FontMetrics  _metrics;
 
     // Cells selected.
-    private Object [] _selection;
+    public static Object [] _selection;
 
 
     /**
