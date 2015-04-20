@@ -1,7 +1,10 @@
 package SheetComponent;
 
 import Functions.Fonts;
+import Gui.FontChooser;
+import Gui.FontChooserComboBox;
 import Gui.FormulaBar;
+import Gui.ToolBar;
 
 import javax.swing.*;
 import javax.swing.border.Border;
@@ -74,6 +77,7 @@ public class SpreadSheet extends JTable {
     private SpreadSheet(SheetCell[][] cells, int numRow, int numCol) {
 
         super();
+
 
 	SheetCell foo[][];
 
@@ -226,6 +230,7 @@ public class SpreadSheet extends JTable {
 
 	}
 
+	private FontChooserComboBox chooserComboBox;
 	private FormulaBar formulaBar;
     /**
      * Build a SheetComponent.SheetComponent included in a JScrollPane
@@ -364,6 +369,8 @@ public class SpreadSheet extends JTable {
 
 			  String str = "" + getColumnName(sc.column) + (sc.row+1);
 			  formulaBar.setCellButton(str);
+
+
 
 		  } else {
 	  setBorder(_emptyBorder);

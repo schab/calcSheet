@@ -47,14 +47,17 @@ public class ToolBar extends JToolBar implements ActionListener {
 
     }
 
+    public void setCurrnetFontStyle(String fontName){fccb.setSelectedItem(fontName);};
+    public String getCurrentFontStyle(){return this.fccb.getSelectedFontName();};
+
     private void initializeToolBarComponents() {
 
 
         fccb = new FontChooserComboBox();
         fccb.setSelectedItem("Calibri");
         fsl = new JComboBox(fontSizeList);
-        fsl.setSelectedItem(20);
-        System.out.println(centerPanel.getSelectedSpreadSheet().get_cellFont().getSize());
+        fsl.setSelectedItem(centerPanel.getSelectedSpreadSheet().get_cellFont().getSize());
+
         fccb.addActionListener(this);
         fsl.addActionListener(this);
 
@@ -123,6 +126,9 @@ public class ToolBar extends JToolBar implements ActionListener {
     public void actionPerformed(ActionEvent e) {
 
         SpreadSheet spreadSheet = centerPanel.getSelectedSpreadSheet();
+        setCurrnetFontStyle("Arial");
+
+
 
         if (e.getSource().equals(jtbElements.get(26)))
             new GraphFrame().setVisible(true);
@@ -158,7 +164,7 @@ public class ToolBar extends JToolBar implements ActionListener {
 
             String fontName = fccb.getSelectedFontName();
             fontName = (fontName != null ? fontName : "");
-
+            if(spreadSheet._selection != null)
             for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
                 SheetCell sc = (SheetCell) spreadSheet._selection[ii];
                 Font selectedFont = sc.getFont();
@@ -198,8 +204,9 @@ public class ToolBar extends JToolBar implements ActionListener {
                 for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
                     SheetCell sc = (SheetCell) spreadSheet._selection[ii];
                     Font selectedFont = sc.getFont();
-
-                    sc.setFont(new Font(selectedFont.getName(), Font.PLAIN, selectedFont.getSize()));
+                    if (isItalic)
+                    sc.setFont(new Font(selectedFont.getName(), Font.PLAIN + Font.ITALIC, selectedFont.getSize()));
+                    else  sc.setFont(new Font(selectedFont.getName(), Font.PLAIN , selectedFont.getSize()));
                     spreadSheet.repaint();
                     isBold = false;
                 }
@@ -207,7 +214,9 @@ public class ToolBar extends JToolBar implements ActionListener {
                 for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
                     SheetCell sc = (SheetCell) spreadSheet._selection[ii];
                     Font selectedFont = sc.getFont();
-                    sc.setFont(new Font(selectedFont.getName(), Font.BOLD, selectedFont.getSize()));
+                    if (isItalic)
+                    sc.setFont(new Font(selectedFont.getName(), Font.BOLD + Font.ITALIC, selectedFont.getSize()));
+                    else sc.setFont(new Font(selectedFont.getName(), Font.BOLD, selectedFont.getSize()));
                     spreadSheet.repaint();
                     isBold = true;
                 }
@@ -227,8 +236,9 @@ public class ToolBar extends JToolBar implements ActionListener {
                 for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
                     SheetCell sc = (SheetCell) spreadSheet._selection[ii];
                     Font selectedFont = sc.getFont();
-
-                    sc.setFont(new Font(selectedFont.getName(), Font.PLAIN, selectedFont.getSize()));
+                    if(isBold)
+                    sc.setFont(new Font(selectedFont.getName(), Font.PLAIN + Font.BOLD, selectedFont.getSize()));
+                    else  sc.setFont(new Font(selectedFont.getName(), Font.PLAIN , selectedFont.getSize()));
                     spreadSheet.repaint();
                     isItalic = false;
                 }
@@ -236,7 +246,9 @@ public class ToolBar extends JToolBar implements ActionListener {
                 for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
                     SheetCell sc = (SheetCell) spreadSheet._selection[ii];
                     Font selectedFont = sc.getFont();
-                    sc.setFont(new Font(selectedFont.getName(), Font.ITALIC, selectedFont.getSize()));
+                    if(isBold)
+                    sc.setFont(new Font(selectedFont.getName(), Font.ITALIC + Font.BOLD, selectedFont.getSize()));
+                    else  sc.setFont(new Font(selectedFont.getName(), Font.ITALIC , selectedFont.getSize()));
                     spreadSheet.repaint();
                     isItalic = true;
                 }
@@ -247,6 +259,7 @@ public class ToolBar extends JToolBar implements ActionListener {
         if (e.getSource().equals(jtbElements.get(12))) {
 
 
+                if(spreadSheet._selection != null)
                 for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
                     SheetCell sc = (SheetCell) spreadSheet._selection[ii];
 
@@ -258,7 +271,7 @@ public class ToolBar extends JToolBar implements ActionListener {
 
         if (e.getSource().equals(jtbElements.get(13))) {
 
-
+            if(spreadSheet._selection != null)
             for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
                 SheetCell sc = (SheetCell) spreadSheet._selection[ii];
 
@@ -270,7 +283,7 @@ public class ToolBar extends JToolBar implements ActionListener {
 
         if (e.getSource().equals(jtbElements.get(14))) {
 
-
+            if(spreadSheet._selection != null)
             for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
                 SheetCell sc = (SheetCell) spreadSheet._selection[ii];
 
@@ -283,38 +296,38 @@ public class ToolBar extends JToolBar implements ActionListener {
 
 
         if (e.getSource().equals(jtbElements.get(16))) {
+            if(spreadSheet._selection != null) {
+                if (_colorWindow == null) new JWindow();
 
-            if (_colorWindow==null) new JWindow();
-
-            Color col = JColorChooser.showDialog(_colorWindow,"Kolor tla",null);
-            if(col !=null)
-            for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
-                SheetCell sc = (SheetCell) spreadSheet._selection[ii];
-                sc.setBackground(col);
+                Color col = JColorChooser.showDialog(_colorWindow, "Kolor tla", null);
+                if (col != null)
+                    for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
+                        SheetCell sc = (SheetCell) spreadSheet._selection[ii];
+                        sc.setBackground(col);
 
 
+                    }
+
+                spreadSheet.repaint();
             }
-
-            spreadSheet.repaint();
-
 
         }
 
         if (e.getSource().equals(jtbElements.get(17))) {
+            if(spreadSheet._selection != null) {
+                if (_colorWindow == null) new JWindow();
 
-            if (_colorWindow==null) new JWindow();
-
-            Color col = JColorChooser.showDialog(_colorWindow,"Kolor czcionki",null);
-            if(col !=null)
-                for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
-                    SheetCell sc = (SheetCell) spreadSheet._selection[ii];
-                    sc.setForeground(col);
+                Color col = JColorChooser.showDialog(_colorWindow, "Kolor czcionki", null);
+                if (col != null)
+                    for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
+                        SheetCell sc = (SheetCell) spreadSheet._selection[ii];
+                        sc.setForeground(col);
 
 
-                }
+                    }
 
-            spreadSheet.repaint();
-
+                spreadSheet.repaint();
+            }
 
         }
     }

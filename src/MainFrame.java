@@ -123,7 +123,7 @@ public class MainFrame extends JFrame {
 
     private LogPanel logPanel;
     private FormPanel jPanel;
-    private JToolBar jtb;
+    protected JToolBar jtb;
     private JMenuBar jMenuBar;
     protected static CenterPanel centerPanel;
     private FormulaBar formulaBar;
