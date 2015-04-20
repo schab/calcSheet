@@ -126,7 +126,7 @@ public class ToolBar extends JToolBar implements ActionListener {
     public void actionPerformed(ActionEvent e) {
 
         SpreadSheet spreadSheet = centerPanel.getSelectedSpreadSheet();
-        setCurrnetFontStyle("Arial");
+
 
 
 
