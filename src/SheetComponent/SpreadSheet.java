@@ -227,11 +227,11 @@ public class SpreadSheet extends JTable {
     public SpreadSheet(int numRow, int numColumn, FormulaBar formulaBar) {
       this(null, numRow, numColumn);
 	  this.formulaBar = formulaBar;
-
 	}
 
 	private FontChooserComboBox chooserComboBox;
 	private FormulaBar formulaBar;
+
     /**
      * Build a SheetComponent.SheetComponent included in a JScrollPane
      * from the cells given as argument.
@@ -368,6 +368,8 @@ public class SpreadSheet extends JTable {
 			  setToolTipText("Right-click to change the cell's colors.");
 
 			  String str = "" + getColumnName(sc.column) + (sc.row+1);
+			  ToolBar.fsl.setSelectedItem(sc.getFont().getSize());
+			  ToolBar.fccb.setSelectedItem(sc.getFont().getFontName());
 			  formulaBar.setCellButton(str);
 
 
@@ -383,6 +385,8 @@ public class SpreadSheet extends JTable {
       }
 	
     }
+
+
 
 	public void set_cellFont(Font font){ this._cellFont = font; }
 	public Font get_cellFont(){ return this._cellFont;}

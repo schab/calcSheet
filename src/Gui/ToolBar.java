@@ -22,8 +22,8 @@ public class ToolBar extends JToolBar implements ActionListener {
 
     private ArrayList<JComponent> jtbElements;
     private Integer[] fontSizeList = {4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48};
-    private FontChooserComboBox fccb;
-    private JComboBox fsl;
+    static public FontChooserComboBox fccb;
+    static public JComboBox fsl;
 
     private String cols;
     private String rows;
@@ -181,7 +181,6 @@ public class ToolBar extends JToolBar implements ActionListener {
 //            String fontName = fccb.getSelectedFontName();
 //            fontName = (fontName != null ? fontName : "");
             int fontSizeIndex = fsl.getSelectedIndex();
-            System.out.println(fontSizeIndex);
             for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
                 SheetCell sc = (SheetCell) spreadSheet._selection[ii];
                 Font selectedFont = sc.getFont();

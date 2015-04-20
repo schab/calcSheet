@@ -50,6 +50,8 @@ public class CenterPanel extends FormPanel implements Printable{
         jTabbedPane = new JTabbedPane(location);
         multiOptionPane = new MultiOptionPane();
     }
+
+
     private void initializeTabbedPane(){
         SpreadSheet spreadSheet = new SpreadSheet(20, 20,formulaBar);
         popupMenu = new PopMenu();

@@ -125,7 +125,7 @@ public class MainFrame extends JFrame {
     private FormPanel jPanel;
     protected JToolBar jtb;
     private JMenuBar jMenuBar;
-    protected static CenterPanel centerPanel;
+    private CenterPanel centerPanel;
     private FormulaBar formulaBar;
 
 }
