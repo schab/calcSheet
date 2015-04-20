@@ -1,5 +1,6 @@
 package SheetComponent;
 
+import Functions.Fonts;
 import Gui.FormulaBar;
 
 import javax.swing.*;
@@ -53,7 +54,7 @@ public class SpreadSheet extends JTable {
      * the SheetComponent.SheetComponent.
      */
     private CellRenderer _renderer;
-    public  Font         _cellFont;
+    private  Font         _cellFont;
   //private FontMetrics  _metrics;
 
     // Cells selected.
@@ -89,7 +90,7 @@ public class SpreadSheet extends JTable {
 	_numRow = numRow;
 	_numCol = numCol;
 
-	_cellFont = new Font("Calibri", Font.PLAIN, 20);
+	_cellFont = Fonts.CalibriSmall.font();
 
 	// Create the JScrollPane that includes the Table
 	_scp = new JScrollPane(this);
@@ -352,7 +353,6 @@ public class SpreadSheet extends JTable {
 	setFont(_cellFont);
 		  setText(sc.toString());
 
-
 	setForeground(sc.foreground);
 	setBackground(sc.background);
 	setFont(sc.getFont());
@@ -376,6 +376,9 @@ public class SpreadSheet extends JTable {
       }
 	
     }
+
+	public void set_cellFont(Font font){ this._cellFont = font; }
+	public Font get_cellFont(){ return this._cellFont;}
 
 	public String GetCellsData(){
 		String rows="[\n";

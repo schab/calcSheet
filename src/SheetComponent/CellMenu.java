@@ -29,6 +29,7 @@ public class CellMenu extends JPopupMenu implements ActionListener {
   private JWindow     _colorWindow;
   private SpreadSheet _sp;
   private FontChooser jFontChooser;
+
   CellMenu(SpreadSheet parent) {
     
     _sp = parent;
