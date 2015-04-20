@@ -88,6 +88,9 @@ public class SheetCell {
 
   public Font getFont(){return this.font;}
   public void setFont(Font font){this.font = font;}
+  public void setBackground(Color color){ this.background = color;}
+  public Color getBackground(){ return this.background;}
+ // public void setForeground(Color color)
 
   public void setInterpreter(Interpreter interpreter){
     this.interpreter = interpreter;

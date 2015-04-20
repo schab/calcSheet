@@ -226,6 +226,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                 for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
                     SheetCell sc = (SheetCell) spreadSheet._selection[ii];
                     Font selectedFont = sc.getFont();
+
                     sc.setFont(new Font(selectedFont.getName(), Font.PLAIN, selectedFont.getSize()));
                     spreadSheet.repaint();
                     isItalic = false;
@@ -235,6 +236,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                     SheetCell sc = (SheetCell) spreadSheet._selection[ii];
                     Font selectedFont = sc.getFont();
                     sc.setFont(new Font(selectedFont.getName(), Font.ITALIC, selectedFont.getSize()));
+                    sc.setBackground(Color.CYAN);
                     spreadSheet.repaint();
                     isItalic = true;
                 }
