@@ -1,10 +1,7 @@
 package SheetComponent;
 
 import Functions.Fonts;
-import Gui.FontChooser;
-import Gui.FontChooserComboBox;
-import Gui.FormulaBar;
-import Gui.ToolBar;
+import Gui.*;
 
 import javax.swing.*;
 import javax.swing.border.Border;
@@ -366,13 +363,9 @@ public class SpreadSheet extends JTable {
 		  if (isSelected) {
 	  setBorder(_selectBorder);
 			  setToolTipText("Right-click to change the cell's colors.");
-
 			  String str = "" + getColumnName(sc.column) + (sc.row+1);
-			  ToolBar.fsl.setSelectedItem(sc.getFont().getSize());
-			  ToolBar.fccb.setSelectedItem(sc.getFont().getFontName());
-			  formulaBar.setCellButton(str);
 
-
+			  	formulaBar.setCellButton(str);
 
 		  } else {
 	  setBorder(_emptyBorder);

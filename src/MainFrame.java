@@ -1,4 +1,5 @@
 import Gui.*;
+import Gui.MenuBar;
 
 import javax.swing.*;
 import java.awt.*;
@@ -72,7 +73,7 @@ public class MainFrame extends JFrame {
         formulaBar = new FormulaBar();
         centerPanel = new CenterPanel(tabbedColumns,tabbedRows,formulaBar);
         jtb = new ToolBar(centerPanel,jtbColumns,jtbRows);
-        jMenuBar = new Gui.MenuBar();
+        jMenuBar = new MenuBar();
 
         jPanel.addXY(centerPanel, 1, 3);
         jPanel.addXY(logPanel, 1, 4);
@@ -123,7 +124,7 @@ public class MainFrame extends JFrame {
 
     private LogPanel logPanel;
     private FormPanel jPanel;
-    protected JToolBar jtb;
+    private ToolBar jtb;
     private JMenuBar jMenuBar;
     private CenterPanel centerPanel;
     private FormulaBar formulaBar;

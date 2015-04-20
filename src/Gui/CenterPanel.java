@@ -186,7 +186,6 @@ public class CenterPanel extends FormPanel implements Printable{
             }
         }
     }
-
     public JTabbedPane getjTabbedPane(){ return jTabbedPane;}
 
     @Override
