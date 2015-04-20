@@ -32,6 +32,7 @@ public class ToolBar extends JToolBar implements ActionListener {
     private boolean isItalic = false;
     private boolean isUnderline = false;
     private CenterPanel centerPanel;
+    private JWindow     _colorWindow;
 
     public ToolBar(CenterPanel centerPanel, String x, String y) {
         this.cols = x;
@@ -236,11 +237,84 @@ public class ToolBar extends JToolBar implements ActionListener {
                     SheetCell sc = (SheetCell) spreadSheet._selection[ii];
                     Font selectedFont = sc.getFont();
                     sc.setFont(new Font(selectedFont.getName(), Font.ITALIC, selectedFont.getSize()));
-                    sc.setBackground(Color.CYAN);
                     spreadSheet.repaint();
                     isItalic = true;
                 }
             }
+
+        }
+
+        if (e.getSource().equals(jtbElements.get(12))) {
+
+
+                for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
+                    SheetCell sc = (SheetCell) spreadSheet._selection[ii];
+
+                    sc.setTextAligment(SwingConstants.LEFT);
+
+                }
+                spreadSheet.repaint();
+        }
+
+        if (e.getSource().equals(jtbElements.get(13))) {
+
+
+            for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
+                SheetCell sc = (SheetCell) spreadSheet._selection[ii];
+
+                sc.setTextAligment(SwingConstants.CENTER);
+
+            }
+            spreadSheet.repaint();
+        }
+
+        if (e.getSource().equals(jtbElements.get(14))) {
+
+
+            for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
+                SheetCell sc = (SheetCell) spreadSheet._selection[ii];
+
+                sc.setTextAligment(SwingConstants.RIGHT);
+
+
+            }
+            spreadSheet.repaint();
+        }
+
+
+        if (e.getSource().equals(jtbElements.get(16))) {
+
+            if (_colorWindow==null) new JWindow();
+
+            Color col = JColorChooser.showDialog(_colorWindow,"Kolor tla",null);
+            if(col !=null)
+            for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
+                SheetCell sc = (SheetCell) spreadSheet._selection[ii];
+                sc.setBackground(col);
+
+
+            }
+
+            spreadSheet.repaint();
+
+
+        }
+
+        if (e.getSource().equals(jtbElements.get(17))) {
+
+            if (_colorWindow==null) new JWindow();
+
+            Color col = JColorChooser.showDialog(_colorWindow,"Kolor czcionki",null);
+            if(col !=null)
+                for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
+                    SheetCell sc = (SheetCell) spreadSheet._selection[ii];
+                    sc.setForeground(col);
+
+
+                }
+
+            spreadSheet.repaint();
+
 
         }
     }

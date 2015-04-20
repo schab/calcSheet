@@ -356,7 +356,7 @@ public class SpreadSheet extends JTable {
 	setForeground(sc.foreground);
 	setBackground(sc.background);
 	setFont(sc.getFont());
-
+	setHorizontalAlignment(sc.getTextAlignment());
 
 		  if (isSelected) {
 	  setBorder(_selectBorder);
