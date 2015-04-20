@@ -53,7 +53,8 @@ public class ToolBar extends JToolBar implements ActionListener {
         fccb = new FontChooserComboBox();
         fccb.setSelectedItem("Calibri");
         fsl = new JComboBox(fontSizeList);
-        fsl.setSelectedItem(20);
+
+        fsl.setSelectedItem(centerPanel.getSelectedSpreadSheet()._cellFont.getSize());
 
         fccb.addActionListener(this);
         fsl.addActionListener(this);
@@ -175,10 +176,11 @@ public class ToolBar extends JToolBar implements ActionListener {
 //            String fontName = fccb.getSelectedFontName();
 //            fontName = (fontName != null ? fontName : "");
             int fontSizeIndex = fsl.getSelectedIndex();
-            System.out.println(fontSizeIndex);
+            //System.out.println(fontSizeIndex);
             for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
                 SheetCell sc = (SheetCell) spreadSheet._selection[ii];
                 Font selectedFont = sc.getFont();
+                //System.out.println(fontSizeList[fontSizeIndex]);
                 sc.setFont( new Font(selectedFont.getName(), selectedFont.getStyle(), fontSizeList[fontSizeIndex]));
                 spreadSheet.repaint();
             }
@@ -198,8 +200,9 @@ public class ToolBar extends JToolBar implements ActionListener {
                 for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
                     SheetCell sc = (SheetCell) spreadSheet._selection[ii];
                     Font selectedFont = sc.getFont();
-
-                    sc.setFont(new Font(selectedFont.getName(), Font.PLAIN, selectedFont.getSize()));
+                    if(isItalic)
+                    sc.setFont(new Font(selectedFont.getName(), Font.PLAIN + Font.ITALIC, selectedFont.getSize()));
+                    else  sc.setFont(new Font(selectedFont.getName(), Font.PLAIN, selectedFont.getSize()));
                     spreadSheet.repaint();
                     isBold = false;
                 }
@@ -207,7 +210,9 @@ public class ToolBar extends JToolBar implements ActionListener {
                 for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
                     SheetCell sc = (SheetCell) spreadSheet._selection[ii];
                     Font selectedFont = sc.getFont();
-                    sc.setFont(new Font(selectedFont.getName(), Font.BOLD, selectedFont.getSize()));
+                    if(isItalic)
+                    sc.setFont(new Font(selectedFont.getName(), Font.BOLD + Font.ITALIC, selectedFont.getSize()));
+                    else  sc.setFont(new Font(selectedFont.getName(), Font.BOLD, selectedFont.getSize()));
                     spreadSheet.repaint();
                     isBold = true;
                 }
@@ -227,8 +232,10 @@ public class ToolBar extends JToolBar implements ActionListener {
                 for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
                     SheetCell sc = (SheetCell) spreadSheet._selection[ii];
                     Font selectedFont = sc.getFont();
+                    if(isBold)
+                    sc.setFont(new Font(selectedFont.getName(), Font.PLAIN + Font.BOLD, selectedFont.getSize()));
+                    else  sc.setFont(new Font(selectedFont.getName(), Font.PLAIN, selectedFont.getSize()));
 
-                    sc.setFont(new Font(selectedFont.getName(), Font.PLAIN, selectedFont.getSize()));
                     spreadSheet.repaint();
                     isItalic = false;
                 }
@@ -236,7 +243,9 @@ public class ToolBar extends JToolBar implements ActionListener {
                 for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
                     SheetCell sc = (SheetCell) spreadSheet._selection[ii];
                     Font selectedFont = sc.getFont();
-                    sc.setFont(new Font(selectedFont.getName(), Font.ITALIC, selectedFont.getSize()));
+                    if(isBold)
+                    sc.setFont(new Font(selectedFont.getName(), Font.ITALIC + Font.BOLD, selectedFont.getSize()));
+                    else sc.setFont(new Font(selectedFont.getName(), Font.ITALIC, selectedFont.getSize()));
                     spreadSheet.repaint();
                     isItalic = true;
                 }
