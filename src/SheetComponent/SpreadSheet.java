@@ -29,7 +29,7 @@ import java.util.EventObject;
  *
  *
  *
- * @author  xxx
+ * @author  Hubert Swiecioch
  *
  ************************************************************************************************/
 public class SpreadSheet extends JTable {

@@ -11,7 +11,7 @@ import java.util.*;
  * This class specifies the
  * cell format.
  *
- * @version 1.0 July-2002
+ *
  * @author  Hubert Swiecioch
  */
 public class SheetCell {
