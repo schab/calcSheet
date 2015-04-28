@@ -22,19 +22,27 @@ import java.util.Set;
 
 /**
  * Created by Kacper on 2015-04-10.
+ * Klasa będąca kontenerem dla komponentów projektu
  */
 
 public class CenterPanel extends FormPanel implements Printable{
 
-    private JTabbedPane jTabbedPane;
-    private JPanel newTabContent;   // the empty JPanel of the "new tab" tab
-    private ArrayList<SpreadSheet> sheetTable;
-    private int tabIndex;  // used in creating unique initial tab titles
-    private MultiOptionPane multiOptionPane;
+    private JTabbedPane jTabbedPane;            // Panel zakładek arkusza
+    private JPanel newTabContent;               // Nowa zakładka komponentu spreadsheet
+    private ArrayList<SpreadSheet> sheetTable;  // Lista przechowująca dany utworzony arkusz
+    private int tabIndex;                       // Index zakładki
+    private MultiOptionPane multiOptionPane;    // Opcojnalny dialog
     private int location;
-    private FormulaBar formulaBar;
-    private PopMenu popupMenu;
+    private FormulaBar formulaBar;              // Pole formuły odpowiadające za wprowadzanie obliczeń
+    private PopMenu popupMenu;                  // Menu kontekstowe dla PPM
 
+
+    /**
+     * Konstruktor głównego panelu tworzący FormLayout
+     * @param col       - ilośc kolumn Formy
+     * @param row       - ilość wierszy Formy
+     * @param formulaBar - Komponent pola formuły
+     */
     public CenterPanel(String col, String row, FormulaBar formulaBar) {
         super(col, row);
         this.location = JTabbedPane.BOTTOM;
@@ -44,6 +52,11 @@ public class CenterPanel extends FormPanel implements Printable{
         setupTabTraversalKeys();
         this.addXY(jTabbedPane, 1, 2);
     }
+
+
+    /**
+     * Inicjalizacja komponentów panelu
+     */
 
     private void initializeComponents(){
         sheetTable = new ArrayList<SpreadSheet>();
@@ -80,6 +93,9 @@ public class CenterPanel extends FormPanel implements Printable{
         jTabbedPane.setOpaque(false);
     }
 
+    /**
+     * Metoda addTab odpowiadająca za dodanie nowej zakładki
+     */
     public void addTab() {
         multiOptionPane.showDialog();
         int col = multiOptionPane.getColumns() , row = multiOptionPane.getRows();
@@ -107,6 +123,11 @@ public class CenterPanel extends FormPanel implements Printable{
             tabComp.startNameEditing();
         }
     }
+
+    /**
+     * Metoda RemoveTab odpowiadająca za usunięcie wybranej zakładki
+     */
+
     public void RemoveTab(){
         if(jTabbedPane.getTabCount() > 1) {
             int index = jTabbedPane.getSelectedIndex();
@@ -116,6 +137,11 @@ public class CenterPanel extends FormPanel implements Printable{
             multiOptionPane.showErrorPane("Nie znaleziono zakładki do usunięcia!", "Błąd!");
         }
     }
+
+    /**
+     * Metoda SaveTable odpowiadająca za zapisanie danych arkusza do pliku
+     */
+
     public void SaveTable(){
 
         int index = jTabbedPane.getSelectedIndex();
@@ -136,6 +162,11 @@ public class CenterPanel extends FormPanel implements Printable{
             }
         }
     }
+
+    /**
+     * Metoda ResizeTab odpowiadająca za zmianę wielkości arkusza
+     */
+
     public void ResizeTab(){
 
         stopTabNameEditing();
@@ -177,6 +208,11 @@ public class CenterPanel extends FormPanel implements Printable{
 
         }
     }
+
+    /**
+     * Metoda stopTabNameEditing odpowiadająca za zatrzymanie edytowania pola tytułu zakładki podczas tworzenia nowej
+     */
+
     private void stopTabNameEditing() {
         if(jTabbedPane.getTabCount() > 1) {
             TabComponent tabComp;
@@ -188,6 +224,14 @@ public class CenterPanel extends FormPanel implements Printable{
     }
     public JTabbedPane getjTabbedPane(){ return jTabbedPane;}
 
+    /**
+     * Metoda print odpowiadająca za drukowanie zawartości arkusza
+     * @param g            - grafika
+     * @param pf           - Format strony
+     * @param page         - ilość stron
+     * @return             - zwracana wartość enum wskazująca czy dana strona istnieje
+     * @throws PrinterException
+     */
     @Override
     public int print(Graphics g, PageFormat pf, int page) throws PrinterException {
 
@@ -195,8 +239,6 @@ public class CenterPanel extends FormPanel implements Printable{
         String title = "Tytuł arkusza: " + jTabbedPane.getTitleAt(index);
         String data = "";
 
-        // We have only one page, and 'page'
-        // is zero-based
         if (page > 0) {
             return NO_SUCH_PAGE;
         }
@@ -230,7 +272,17 @@ public class CenterPanel extends FormPanel implements Printable{
         // of the printed document
         return PAGE_EXISTS;
     }
+
+    /**
+     * Metoda getSelectedSpreadSheet
+     * @return typ zwracany SpreadSheet, zwraca aktualnie wybrany arkusz przez użytkownika
+     */
     public SpreadSheet getSelectedSpreadSheet(){ return sheetTable.get(jTabbedPane.getSelectedIndex());}
+
+    /**
+     * Klasa TabComponet jest komponentem nowej zakładki, dająca funkcjonalność jej edytowania czy też dodawania
+     */
+
     private class TabComponent extends JPanel{
         private JTextField title;
         private Caret editingCaret;
@@ -335,6 +387,13 @@ public class CenterPanel extends FormPanel implements Printable{
             }
         }
     }
+
+
+    /**
+     * Klasa PopMenu odpowiadająca za utworzenie menu kontekstowego pojawiajacego się po PPM zawierająca takie funkcje
+     * jak RESIZE,NEWTAB,DELETE,SAVE
+     */
+
     private class PopMenu   extends JPopupMenu implements ActionListener{
 
         static private final String _RESIZE= "Zmień rozmiar";
@@ -373,6 +432,13 @@ public class CenterPanel extends FormPanel implements Printable{
                 SaveTable();
         }
     }
+
+
+    /**
+     * Utworzona metoda służy do ustalenia przycisków za pomocą,
+     * których użytkownik bedzie mógł się poruszać po zakładkach
+     */
+
     private void setupTabTraversalKeys() {
 
         KeyStroke ctrlTab = KeyStroke.getKeyStroke("ctrl TAB");
@@ -393,6 +459,11 @@ public class CenterPanel extends FormPanel implements Printable{
         inputMap.put(ctrlTab, "navigateNext");
         inputMap.put(ctrlShiftTab, "navigatePrevious");
     }
+
+    /**
+     * Metoda getDataFromSpreadSheet
+     * @return Lista typu double
+     */
     public ArrayList<Double> getDataFromSpreadSheet(){
         int index = jTabbedPane.getSelectedIndex();
         SpreadSheet spr = sheetTable.get(index);

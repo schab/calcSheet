@@ -66,6 +66,8 @@ public class MainFrame extends JFrame {
     }
 
 
+
+
     private void initializeComponents(){
 
         jPanel = new FormPanel(formColumns,formRows);
