@@ -15,9 +15,22 @@ import java.io.IOException;
 public class LogPanel extends JPanel{
 
 
+    /**
+     * Klasa odpowiadajaca za panel z logiem aplikacji
+     *
+     */
+
+
         final static Logger logger = Logger.getLogger("logger");
         private static JLabel statusField,infoField;
         private JLabel statusLabel,infoLabel;
+
+
+
+    /**
+     *  Konstruktor bezparametrowy inicjalizujacy komponenty
+     *
+     */
 
         public LogPanel(){
             try {
@@ -28,6 +41,11 @@ public class LogPanel extends JPanel{
             }
         }
 
+
+    /**
+     * Metoda inicjalizujaca komponenty
+     *
+     */
 
         private void initializeComponents(){
             this.setBackground(Colors.MyGray.color());
@@ -76,6 +94,11 @@ public class LogPanel extends JPanel{
         }
 
 
+    /**
+     * Metoda obslugujaca loger i strukture xml
+     *
+     */
+
         private void createLogger() throws IOException{
 
             DOMConfigurator.configure("config.xml");
@@ -88,6 +111,12 @@ public class LogPanel extends JPanel{
             logger.setLevel(Level.INFO);
         }
 
+
+    /**
+     *  Metoda ustalajaca dany stan
+     *  @param t
+     *  @param str
+     */
 
         public static void setInfo(Class t , String str){
             String string = t.toString() + ":: " + str;
@@ -102,12 +131,22 @@ public class LogPanel extends JPanel{
             }
             }
 
+    /**
+     * Ustawianie pola "Info"
+     * @param str
+     */
+
         public static void setInfoField(String str){
             infoField.setText(str);
         }
 
+    /**
+     * Ustawienie pola "Status"
+     *@param str
+     */
+
         public static void setStatusField(String str){
             statusField.setText(str);
         }
-    
+
 }
