@@ -83,7 +83,7 @@ public class GraphFrame extends JFrame {
                                         .addComponent(comboColor, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
                                 .addGap(13, 13, 13))
         );
-
+        score = new ArrayList<>();
         pack();
     }
     private void ustawKolorActionPerformed(ActionEvent evt) {//GEN-FIRST:event_ustawKolorActionPerformed
@@ -115,14 +115,17 @@ public class GraphFrame extends JFrame {
                     break;
             }
 
-
-
         }
 
     }
     private void ustawWartoscActionPerformed(ActionEvent evt) {//GEN-FIRST:event_ustawWartoscActionPerformed
-        graphComponent.setScores(createScores());
 
+     if(score!=null) {
+         graphComponent.setScores(score);
+         System.out.println(score);
+     }
+//        graphComponent.setScores(createScores());
+//
     }
     public List<Double> createScores(){
         List<Double> scores = new ArrayList<>();
@@ -133,6 +136,13 @@ public class GraphFrame extends JFrame {
             scores.add(random.nextDouble() * maxScore);
         }
         return scores;
+    }
+
+    private List<Double> score;
+
+    public void setScore(List<Double> list){
+        if(list!=null)
+         score = list;
     }
 
     private GraphComponent graphComponent;

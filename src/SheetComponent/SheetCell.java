@@ -1,11 +1,10 @@
 package SheetComponent;
 
 import Functions.Fonts;
-import com.jgoodies.forms.layout.CellConstraints;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.*;
+import java.util.Vector;
 
 /**
  * This class specifies the
@@ -31,6 +30,7 @@ public class SheetCell {
   
   Object value;
   String formula;
+  Double dValue;
   int    state;
   Vector listeners;
   Vector listenees;
@@ -56,6 +56,7 @@ public class SheetCell {
     foreground = Color.black;
     font       = Fonts.CalibriSmall.font();
     textAlignment = SwingConstants.CENTER;
+    dValue = 0.0;
   }
 
 
@@ -63,6 +64,9 @@ public class SheetCell {
     this(r, c);
     this.value   = value;
     this.formula = formula;
+
+    this.dValue = Double.valueOf(value);
+    System.out.println(dValue);
   }
 
   void userUpdate() {
@@ -89,6 +93,7 @@ public class SheetCell {
       if (DEBUG) System.out.println("Listener updated.");
       cell.updateListeners();
     }
+
   }
 
   public Font getFont(){return this.font;}
@@ -99,7 +104,8 @@ public class SheetCell {
   public Color getForeground(){return this.foreground;}
   public void setTextAligment(int aligment){this.textAlignment = aligment;}
   public int getTextAlignment(){ return this.textAlignment;}
-
+  public Object getValue(){return this.value;}
+  public double getDValue(){return this.dValue;}
   public void setInterpreter(Interpreter interpreter){
     this.interpreter = interpreter;
   }

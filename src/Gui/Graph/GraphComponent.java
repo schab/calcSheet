@@ -1,5 +1,7 @@
 
 package Gui.Graph;
+import SheetComponent.SpreadSheet;
+
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
@@ -123,6 +125,16 @@ public class GraphComponent extends JPanel {
         repaint();
     }
 
+
+    public void setScoresTable ( SpreadSheet spr, int col, int row){
+        List<Double> oldScores = scores;
+        List<Double> newScores = null;
+
+        for(int i = 0; i < col; i ++)
+            for(int j = 0 ; j < row ; j ++)
+                    newScores.add((Double) spr.getModel().getValueAt(j,i));
+
+    }
 
     public String getPropertyName(){ return this.propertyName;}
     public int    getGraphWidth(){   return this.width;}
