@@ -116,8 +116,9 @@ public class GraphComponent extends JPanel {
         this.numberYDivisions = numberYDivisions;
         this.firePropertyChange("Number Y divisions",oldNumberYDivisions,numberYDivisions);
         repaint();
-
     }
+
+
     public void setScores ( List<Double> list){
         List<Double> oldScores = scores;
         this.scores = list;
