@@ -57,6 +57,7 @@ public class SheetCell {
     font       = Fonts.CalibriSmall.font();
     textAlignment = SwingConstants.CENTER;
     dValue = 0.0;
+
   }
 
 
@@ -65,8 +66,6 @@ public class SheetCell {
     this.value   = value;
     this.formula = formula;
 
-    this.dValue = Double.valueOf(value);
-    System.out.println(dValue);
   }
 
   void userUpdate() {

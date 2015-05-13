@@ -8,7 +8,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
-import java.util.Random;
 
 /**
  * This class implements a popup-menu
@@ -29,7 +28,6 @@ public class CellMenu extends JPopupMenu implements ActionListener {
   static private final String _BACKGROUND = "Kolor tła";
   static private final String _FONT       = "Czcionka";
   static private final String _GRAPH      = "Wygeneruj graf";
-  static private final String _RANDOM     = "Wygeneruj wartości";
 
   private Object      _targetCells[];
   private JWindow     _colorWindow;
@@ -59,9 +57,6 @@ public class CellMenu extends JPopupMenu implements ActionListener {
     item.addActionListener(this);
     add(item);
 
-    item = new JMenuItem(_RANDOM);
-    item.addActionListener(this);
-    add(item);
 
     pack();
   }
@@ -118,25 +113,10 @@ public class CellMenu extends JPopupMenu implements ActionListener {
       graphFrame.setScore(doubleList);
         graphFrame.setVisible(true);
 
-    }else if (ev.getActionCommand().equals(_RANDOM)) {
-      setVisible(false);
-      int col = _sp.getColumnCount();
-      int row = _sp.getRowCount();
-
-      generateScores(100, col, row);
-      _sp.repaint();
     }
   }
 
-  public void generateScores(int maxScore,int col,int row){
-    java.util.List<Double> scores = new ArrayList<>();
-    Random random = new Random();
-    for (int i = 0; i < col; i++)
-        for(int j=0;j<row;j++) {
-          Object a = String.valueOf(random.nextDouble() * maxScore);
-          _sp.setValueAt(a, i, j);
-        }
-  }
+
 
 
 }

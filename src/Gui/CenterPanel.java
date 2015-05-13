@@ -18,6 +18,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Random;
 import java.util.Set;
 
 /**
@@ -161,6 +162,19 @@ public class CenterPanel extends FormPanel implements Printable{
                 ex.printStackTrace();
             }
         }
+    }
+
+    public void generateScores(int maxScore){
+        java.util.List<Double> scores = new ArrayList<>();
+        Random random = new Random();
+        int col = this.getSelectedSpreadSheet().getColumnCount();
+        int row = this.getSelectedSpreadSheet().getRowCount();
+        for (int i = 0; i < col; i++)
+            for(int j=0;j<row;j++) {
+                Object a = String.valueOf(random.nextDouble() * maxScore);
+                this.getSelectedSpreadSheet().setValueAt(a, i, j);
+
+            }
     }
 
     /**
@@ -400,6 +414,7 @@ public class CenterPanel extends FormPanel implements Printable{
         static private final String _NEWTAB= "Dodaj arkusz";
         static private final String _DELETE= "Usuń arkusz";
         static private final String _SAVE  = "Zapisz arkusz";
+        static private final String _RANDOM = "Wygeneruj wartości";
 
         public PopMenu(){
 
@@ -418,6 +433,10 @@ public class CenterPanel extends FormPanel implements Printable{
             item.addActionListener(this);
             add(item);
 
+            item = new JMenuItem(_RANDOM);
+            item.addActionListener(this);
+            add(item);
+
             pack();
         }
         @Override
@@ -430,6 +449,8 @@ public class CenterPanel extends FormPanel implements Printable{
                 ResizeTab();
             else if(e.getActionCommand() == _SAVE)
                 SaveTable();
+            else if(e.getActionCommand() == _RANDOM)
+                generateScores(50);
         }
     }
 

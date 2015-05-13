@@ -35,7 +35,7 @@ class SpreadSheetModel extends AbstractTableModel {
 	_nbColumn   = cells[0].length;
 	this.cells  = cells;
 
-        interpreter = new Interpreter(this);
+        interpreter = Interpreter.getInstance(this);
 
         for(SheetCell[] c : cells)
             for(SheetCell e : c)

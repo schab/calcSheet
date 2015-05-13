@@ -8,7 +8,7 @@ package SheetComponent;
  *
  * @author  Hubert Swiecioch
  *****************************************************************************************/
-public class Interpreter {
+public final class Interpreter {
 
   /**
    * Set this variable to true to get
@@ -74,8 +74,19 @@ public class Interpreter {
   
   private String         _leaf;
   private StringBuffer _buffer;
-  
-  Interpreter(SpreadSheetModel data) {
+
+  private static volatile Interpreter INSTANCE = null;
+  public static Interpreter getInstance(SpreadSheetModel _data){
+    if(INSTANCE == null){
+      synchronized (Interpreter.class){
+        if(INSTANCE == null)
+          INSTANCE = new Interpreter(_data);
+      }
+    }
+    return INSTANCE;
+  }
+
+  private Interpreter(SpreadSheetModel data) {
     _data = data;
   }
   

@@ -5,7 +5,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 /**
  *
@@ -120,23 +119,10 @@ public class GraphFrame extends JFrame {
     }
     private void ustawWartoscActionPerformed(ActionEvent evt) {//GEN-FIRST:event_ustawWartoscActionPerformed
 
-     if(score!=null) {
+     if(score!=null)
          graphComponent.setScores(score);
-         System.out.println(score);
-     }
-//        graphComponent.setScores(createScores());
-//
     }
-    public List<Double> createScores(){
-        List<Double> scores = new ArrayList<>();
-        Random random = new Random();
-        int maxDataPoints = 40;
-        int maxScore = 10;
-        for (int i = 0; i < maxDataPoints; i++) {
-            scores.add(random.nextDouble() * maxScore);
-        }
-        return scores;
-    }
+
 
     private List<Double> score;
 
