@@ -1,8 +1,8 @@
 package CalcSheet.Gui;
 
 import CalcSheet.Functions.Images;
+import CalcSheet.Gui.JXGraph.AxisChoose;
 import CalcSheet.Gui.JXGraph.GraphPoints;
-import CalcSheet.Gui.JXGraph.MainGraph;
 import CalcSheet.SheetComponent.SheetCell;
 import CalcSheet.SheetComponent.SpreadSheet;
 
@@ -12,7 +12,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.print.PrinterException;
 import java.awt.print.PrinterJob;
-import java.util.*;
+import java.util.ArrayList;
 
 
 /**
@@ -157,8 +157,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                 }
                 columnM += 1;
                 rowM += 1;
-                MainGraph.initAndShowGUI(points, columnM, rowM);
-
+                AxisChoose axisChoose = new AxisChoose(points,columnM,rowM);
 
             } catch (NullPointerException r) {
                 MultiOptionPane multiOptionPane = new MultiOptionPane();

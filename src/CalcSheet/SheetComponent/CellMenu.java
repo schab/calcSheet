@@ -1,8 +1,8 @@
 package CalcSheet.SheetComponent;
 
 import CalcSheet.Gui.FontChooser;
+import CalcSheet.Gui.JXGraph.AxisChoose;
 import CalcSheet.Gui.JXGraph.GraphPoints;
-import CalcSheet.Gui.JXGraph.MainGraph;
 import CalcSheet.Gui.LogPanel;
 import CalcSheet.Gui.MultiOptionPane;
 
@@ -142,7 +142,7 @@ public class CellMenu extends JPopupMenu implements ActionListener {
         }
         columnM += 1;
         rowM += 1;
-        MainGraph.initAndShowGUI(points, columnM, rowM);
+        AxisChoose axisChoose = new AxisChoose(points,columnM,rowM);
         LogPanel.setInfo(getClass(), "Utworzenie grafu");
 
       }catch(NullPointerException e){

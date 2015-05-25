@@ -1,0 +1,16 @@
+INFO  : 2015-05-25 11:11:14,640: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-25 11:11:26,768: class CalcSheet.Gui.CenterPanel:: Wygenerowanie przyk³adowych wartoœci arkusza
+INFO  : 2015-05-25 11:11:53,716: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-25 11:12:26,527: class CalcSheet.Gui.CenterPanel:: Dodano nowy arkusz
+INFO  : 2015-05-25 11:12:33,382: class CalcSheet.Gui.CenterPanel:: Wygenerowanie przyk³adowych wartoœci arkusza
+INFO  : 2015-05-25 11:12:54,322: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-25 11:13:15,070: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-25 11:13:30,277: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji
+INFO  : 2015-05-25 11:18:08,466: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-25 11:18:12,284: class CalcSheet.Gui.CenterPanel:: Wygenerowanie przyk³adowych wartoœci arkusza
+INFO  : 2015-05-25 11:18:28,155: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-25 11:18:56,336: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-25 11:19:32,949: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-25 11:19:45,312: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-25 11:19:55,151: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-25 11:20:11,695: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji

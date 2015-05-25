@@ -18,21 +18,29 @@ import java.util.*;
 public class MainGraph{
 
     private static List<GraphPoints<Integer,Integer,Double>> graphPoints;
-    private static int maxColumns,maxRows;
+    private static int maxColumns,maxRows,index;
+    private static String titleGraph,colNameGraph;
 
     public static void initAndShowGUI(
             List<GraphPoints<Integer,Integer,Double>> graphPointsList ,
             int columns,
-            int rows)
+            int rows,
+            String title,
+            String colName,
+            int ind)
     {
         final JFrame frame = new JFrame("Wykres ver. 1.0");
         final JFXPanel jfxPanel = new JFXPanel();
         graphPoints = graphPointsList;
         maxColumns = columns;
         maxRows = rows;
+        titleGraph = title;
+        colNameGraph = colName;
+        index = ind;
+
         frame.add(jfxPanel);
         frame.setVisible(true);
-        frame.setSize(800,600);
+        frame.setSize(800, 600);
         Platform.runLater(()-> {initFX(jfxPanel);});
     }
 
@@ -43,9 +51,9 @@ public class MainGraph{
             final LineChart<Number, Number> lineChart =
                     new LineChart<Number, Number>(xAxis, yAxis);
 
-            xAxis.setLabel("Kolumna nr.1");
+            xAxis.setLabel(colNameGraph + ":1");
             yAxis.setLabel("Wartości komórek");
-            lineChart.setTitle("CalcSheet graph using JavaFX");
+            lineChart.setTitle(titleGraph);
 
             for(XYChart.Series ser : GetSeries() )
                 lineChart.getData().add(ser);
@@ -59,11 +67,23 @@ public class MainGraph{
 
             XYChart.Series[] series = new XYChart.Series[maxColumns-1];
             for(int i = 1 ; i < dx.length ; i++){
-                String title = " Kolumna nr. " + (i+1);
+                String title = colNameGraph + ":" + (i+1);
                 series[i-1] = new XYChart.Series();
                 series[i-1].setName(title);
-                for(int j = 0 ; j < dx[i].length;j++)
-                    series[i-1].getData().add(new XYChart.Data(dx[0][j],dx[i][j]));
+                for(int j = 0 ; j < dx[i].length;j++){
+                    double x,y;
+                    if(index == 0) {
+                        x = dx[0][j];
+                        y = dx[i][j];
+                    }
+                    else{
+                        x = dx[i][j];
+                        y = dx[0][j];
+                    }
+
+                    series[i - 1].getData().add(new XYChart.Data(x, y));
+
+                }
             }
 
             return series;
