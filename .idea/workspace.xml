@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f1c5771-5221-4dfb-96d0-e8e5a41905b5" name="Default" comment="New G">
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\.classpath" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\.project" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\calcSheets.userlibraries" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/CellMenu.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/CellMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/CenterPanel$PopMenu.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/CenterPanel$PopMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/CenterPanel$TabComponent.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/CenterPanel$TabComponent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/CenterPanel.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/CenterPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FormPanel.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FormPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FormulaBar.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FormulaBar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/LogPanel.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/LogPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/MainFrame$1.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/MainFrame$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/MainFrame.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/MainFrame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/JXGraph/MainGraph.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/JXGraph/MainGraph.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/MenuBar.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/MenuBar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/MultiOptionPane.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/MultiOptionPane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/ToolBar.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/ToolBar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.form" afterPath="$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.java" afterPath="$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CalcSheet/Functions/Images.java" afterPath="$PROJECT_DIR$/src/CalcSheet/Functions/Images.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CalcSheet/Gui/ToolBar.java" afterPath="$PROJECT_DIR$/src/CalcSheet/Gui/ToolBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calcSheets.iml" afterPath="$PROJECT_DIR$/calcSheets.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projektLog.log" afterPath="$PROJECT_DIR$/projektLog.log" />
+    <list default="true" id="7f1c5771-5221-4dfb-96d0-e8e5a41905b5" name="Default" comment="BugBounty v2">
+      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\src\CalcSheet\diagram v3 white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\src\CalcSheet\diagram v3.png" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\DOKUMENT DETALICZNY PROJEKTU v1.1.docx" afterPath="$PROJECT_DIR$/documentation/Retail document/DOKUMENT DETALICZNY PROJEKTU v1.1.docx" />
+      <change type="MOVED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\DOKUMENT DETALICZNY PROJEKTU v1.1.pdf" afterPath="$PROJECT_DIR$/documentation/Retail document/DOKUMENT DETALICZNY PROJEKTU v1.1.pdf" />
+      <change type="MOVED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\DOKUMENT DETALICZNY PROJEKTU v1.2.docx" afterPath="$PROJECT_DIR$/documentation/Retail document/DOKUMENT DETALICZNY PROJEKTU v1.2.docx" />
+      <change type="MOVED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\DOKUMENT DETALICZNY PROJEKTU.docx" afterPath="$PROJECT_DIR$/documentation/Retail document/DOKUMENT DETALICZNY PROJEKTU.docx" />
+      <change type="MOVED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\Scenariusz testów v 0.6.pdf" afterPath="$PROJECT_DIR$/documentation/Tests/Scenariusz testów v 0.6.pdf" />
+      <change type="MOVED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\Scenariusz testów v 1.0.docx" afterPath="$PROJECT_DIR$/documentation/Tests/Scenariusz testów v 1.0.docx" />
+      <change type="MOVED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\Scenariusz testów v 1.0.pdf" afterPath="$PROJECT_DIR$/documentation/Tests/Scenariusz testów v 1.0.pdf" />
+      <change type="MOVED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\Scenariusz testów.pdf" afterPath="$PROJECT_DIR$/documentation/Tests/Scenariusz testów.pdf" />
+      <change type="MOVED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\Specyfikacja Wymagań.txt" afterPath="$PROJECT_DIR$/documentation/SRS/Specyfikacja Wymagań.txt" />
+      <change type="MOVED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\Specyfikacja wymagań v1.3.doc" afterPath="$PROJECT_DIR$/documentation/SRS/Specyfikacja wymagań v1.3.doc" />
+      <change type="MOVED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\Specyfikacja wymagań v1.3.pdf" afterPath="$PROJECT_DIR$/documentation/SRS/Specyfikacja wymagań v1.3.pdf" />
+      <change type="MOVED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\Specyfikacja wymagań v1.31.pdf" afterPath="$PROJECT_DIR$/documentation/SRS/Specyfikacja wymagań v1.31.pdf" />
+      <change type="MOVED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\Wymagania_funkcjonalne_i_niefunkcjonalne.pdf" afterPath="$PROJECT_DIR$/documentation/SRS/Wymagania_funkcjonalne_i_niefunkcjonalne.pdf" />
+      <change type="MOVED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\Zakres testów v 0.6.pdf" afterPath="$PROJECT_DIR$/documentation/Tests/Zakres testów v 0.6.pdf" />
+      <change type="MOVED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\Zakres testów v 1.0.docx" afterPath="$PROJECT_DIR$/documentation/Tests/Zakres testów v 1.0.docx" />
+      <change type="MOVED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\Zakres testów v 1.0.pdf" afterPath="$PROJECT_DIR$/documentation/Tests/Zakres testów v 1.0.pdf" />
+      <change type="MOVED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\Zakres testów.pdf" afterPath="$PROJECT_DIR$/documentation/Tests/Zakres testów.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="calcSheets.iws" />
@@ -47,21 +44,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SpreadSheetModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CalcSheet/SheetComponent/SpreadSheetModel.java">
+      <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CalcSheet/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.724138">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ToolBar.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ToolBar.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/ToolBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="67" selection-start-line="74" selection-start-column="67" selection-end-line="74" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.2725061">
+              <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,90 +66,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AxisChoose.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.java">
+      <file leaf-file-name="MultiOptionPane.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/MultiOptionPane.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainGraph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/MainGraph.java">
+      <file leaf-file-name="LogPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/LogPanel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+              <caret line="110" column="29" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
               <folding>
-                <element signature="method#createScene#0;class#MainGraph#0" expanded="false" />
-                <element signature="method#initFX#0;class#MainGraph#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphPoints.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/GraphPoints.java">
+      <file leaf-file-name="MenuBar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/MenuBar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AxisChoose.form" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CenterPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/CenterPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="124" column="36" selection-start-line="124" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/FormPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Images.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CalcSheet/Functions/Images.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
-              <folding>
-                <element signature="e#1128#1129#0" expanded="true" />
-                <element signature="e#1164#1165#0" expanded="true" />
-                <element signature="e#1409#1410#0" expanded="true" />
-                <element signature="e#1457#1458#0" expanded="true" />
-                <element signature="e#1644#1645#0" expanded="true" />
-                <element signature="e#1705#1706#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CalcSheet/MainFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="89" column="33" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="37" />
+            <state vertical-scroll-proportion="-3.9655173">
+              <caret line="154" column="11" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -170,11 +120,15 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Sobiech &lt;kacper.sobisz@gmail.com&gt;" />
         <option value="Sobiech" />
+        <option value="Sobiech &lt;kacper.sobisz@gmail.com&gt;" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="origin" target-branch="master" />
+    </push-targets>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -212,13 +166,13 @@
         <option value="$PROJECT_DIR$/projektLog.log" />
         <option value="$PROJECT_DIR$/src/CalcSheet/SheetComponent/CellMenu.java" />
         <option value="$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/MainGraph.java" />
-        <option value="$PROJECT_DIR$/src/CalcSheet/MainFrame.java" />
         <option value="$PROJECT_DIR$/src/CalcSheet/Gui/LogPanel.java" />
         <option value="$PROJECT_DIR$/src/CalcSheet/Gui/FormPanel.java" />
         <option value="$PROJECT_DIR$/src/CalcSheet/Functions/Images.java" />
-        <option value="$PROJECT_DIR$/src/CalcSheet/Gui/ToolBar.java" />
         <option value="$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.java" />
         <option value="$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.form" />
+        <option value="$PROJECT_DIR$/src/CalcSheet/MainFrame.java" />
+        <option value="$PROJECT_DIR$/src/CalcSheet/Gui/ToolBar.java" />
       </list>
     </option>
   </component>
@@ -236,10 +190,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1358" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1040" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -266,7 +220,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -298,93 +253,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CalcSheet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calcSheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calcSheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CalcSheet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calcSheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calcSheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CalcSheet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JXGraph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AxisChoose" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calcSheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calcSheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CalcSheet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JXGraph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -411,8 +283,126 @@
       <recent name="C:\Users\Kacper\Documents\GitHub\calcSheets\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Kacper\Documents\GitHub\calcSheets\src\CalcSheet" />
+      <recent name="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\SRS" />
+      <recent name="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\Retail document" />
+      <recent name="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation\Tests" />
+      <recent name="C:\Users\Kacper\Documents\GitHub\calcSheets\documentation" />
+      <recent name="C:\Users\Kacper\Documents\GitHub\calcSheets\lib" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/GUI/Ikony_new.rar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/DOKUMENT DETALICZNY PROJEKTU v1.1.pdf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/DOKUMENT DETALICZNY PROJEKTU v1.2.docx</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/Zakres testów v 1.0.docx</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/documentation/Zakres testów v 1.0.pdf</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="MainGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -661,15 +651,33 @@
       <option name="project" value="LOCAL" />
       <updated>1431503912164</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Bugbounty">
+      <created>1432557917915</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1432557917915</updated>
+    </task>
+    <task id="LOCAL-00005" summary="BugBounty v2">
+      <created>1432590790497</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1432590790497</updated>
+    </task>
+    <task id="LOCAL-00006" summary="BugBounty v3">
+      <created>1432591049774</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1432591049774</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1453000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1040" height="784" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -678,11 +686,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45086706" sideWeight="0.5385779" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.48184568" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38235295" sideWeight="0.4614221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32668713" sideWeight="0.48184568" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38036808" sideWeight="0.4614221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18456884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3846939" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -714,7 +722,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Graph Added" />
     <MESSAGE value="Test Values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Values" />
+    <MESSAGE value="Bugbounty" />
+    <MESSAGE value="BugBounty v2" />
+    <MESSAGE value="BugBounty v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="BugBounty v3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -725,16 +736,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/SheetComponent/CellMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="109" column="39" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projektLog.log">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -861,16 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/Ikony.zip!/Ikony/16x16/middle3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/Ikony.zip!/Ikony/32x32/middle1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CalcSheet/SheetComponent/SheetCell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -883,16 +874,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/Ikony.zip!/Ikony/32x32/middle1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/Ikony.zip!/Ikony/16x16/middle3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CalcSheet/SheetComponent/Interpreter.java">
@@ -930,13 +911,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/MenuBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/FontChooserComboBox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -962,14 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/MultiOptionPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,16 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/LogPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="110" column="29" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/FormPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1016,14 +972,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="89" column="33" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,44 +983,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/CenterPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="124" column="36" selection-start-line="124" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CalcSheet/Functions/Images.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
           <folding>
-            <element signature="e#1128#1129#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1409#1410#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1705#1706#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/ToolBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="67" selection-start-line="74" selection-start-column="67" selection-end-line="74" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/GraphPoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,6 +998,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1453#1469#0" expanded="false" />
             <element signature="method#createScene#0;class#MainGraph#0" expanded="false" />
             <element signature="method#initFX#0;class#MainGraph#0" expanded="false" />
           </folding>
@@ -1091,18 +1010,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1246#1247#0" expanded="false" />
+            <element signature="e#1288#1289#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/GraphPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/MenuBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/MultiOptionPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/LogPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="29" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/CenterPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9655173">
+          <caret line="154" column="11" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.724138">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/ToolBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2725061">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

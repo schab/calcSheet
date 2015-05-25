@@ -45,3 +45,16 @@ INFO  : 2015-05-25 14:42:51,467: class CalcSheet.SheetComponent.CellMenu:: Utwor
 INFO  : 2015-05-25 14:43:01,489: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
 INFO  : 2015-05-25 14:43:46,127: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
 INFO  : 2015-05-25 14:43:52,160: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji
+INFO  : 2015-05-25 23:16:57,937: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-25 23:17:26,200: class CalcSheet.Gui.CenterPanel:: Dodano nowy arkusz
+INFO  : 2015-05-25 23:22:49,274: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-25 23:23:05,561: class CalcSheet.Gui.CenterPanel:: Wygenerowanie przyk³adowych wartoœci arkusza
+INFO  : 2015-05-25 23:23:11,975: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-25 23:23:34,035: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-25 23:23:47,852: class CalcSheet.Gui.ToolBar:: Obliczono sum? zaznaczonych kom?rek r?wn?:9359.431793372825
+INFO  : 2015-05-25 23:23:52,899: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji
+INFO  : 2015-05-25 23:34:12,860: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-25 23:42:19,363: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-25 23:42:33,081: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji
+INFO  : 2015-05-25 23:43:32,230: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-25 23:43:44,937: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji
