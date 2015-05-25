@@ -21,6 +21,7 @@ public class AxisChoose extends JDialog {
     private int columnMax,rowMax;
 
     public AxisChoose(List<GraphPoints<Integer,Integer,Double>> graphPoints , int columnMax,int rowMax) {
+
         setContentPane(contentPane);
         setTitle("Przedstawienie wykresu");
         setModal(true);
@@ -67,5 +68,7 @@ public class AxisChoose extends JDialog {
 
         dispose();
     }
+
+
 
 }

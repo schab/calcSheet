@@ -18,3 +18,30 @@ INFO  : 2015-05-25 11:22:07,244: class CalcSheet.MainFrame:: Uruchomiono aplikac
 INFO  : 2015-05-25 11:22:10,361: class CalcSheet.Gui.CenterPanel:: Wygenerowanie przyk³adowych wartoœci arkusza
 INFO  : 2015-05-25 11:22:24,537: class CalcSheet.Gui.ToolBar:: Utworzenie grafu
 INFO  : 2015-05-25 11:22:28,911: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji
+INFO  : 2015-05-25 14:35:28,302: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-25 14:35:32,825: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji
+INFO  : 2015-05-25 14:35:50,084: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-25 14:36:07,943: class CalcSheet.Gui.CenterPanel:: Dodano nowy arkusz
+INFO  : 2015-05-25 14:36:11,391: class CalcSheet.Gui.CenterPanel:: Wygenerowanie przyk³adowych wartoœci arkusza
+INFO  : 2015-05-25 14:36:13,874: class CalcSheet.Gui.ToolBar:: Obliczono warto?? sinus zaznaczonych kom?rek
+INFO  : 2015-05-25 14:36:14,650: class CalcSheet.Gui.ToolBar:: Obliczono warto?? cos zaznaczonych kom?rek
+INFO  : 2015-05-25 14:36:15,298: class CalcSheet.Gui.ToolBar:: Obliczono warto?? tangens zaznaczonych kom?rek
+INFO  : 2015-05-25 14:36:15,978: class CalcSheet.Gui.ToolBar:: Obliczono warto?? cotangens zaznaczonych kom?rek
+INFO  : 2015-05-25 14:36:20,580: class CalcSheet.Gui.ToolBar:: Obliczono sum? zaznaczonych kom?rek r?wn?:7.6984118165741195
+INFO  : 2015-05-25 14:38:11,555: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji
+INFO  : 2015-05-25 14:38:14,985: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-25 14:38:20,101: class CalcSheet.Gui.CenterPanel:: Dodano nowy arkusz
+INFO  : 2015-05-25 14:38:24,403: class CalcSheet.Gui.CenterPanel:: Wygenerowanie przyk³adowych wartoœci arkusza
+INFO  : 2015-05-25 14:38:31,563: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-25 14:39:18,333: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-25 14:39:21,246: class CalcSheet.Gui.CenterPanel:: Wygenerowanie przyk³adowych wartoœci arkusza
+INFO  : 2015-05-25 14:39:34,284: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-25 14:39:36,907: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji
+INFO  : 2015-05-25 14:42:26,883: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-25 14:42:30,568: class CalcSheet.Gui.CenterPanel:: Dodano nowy arkusz
+INFO  : 2015-05-25 14:42:33,880: class CalcSheet.Gui.CenterPanel:: Wygenerowanie przyk³adowych wartoœci arkusza
+INFO  : 2015-05-25 14:42:40,362: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-25 14:42:51,467: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-25 14:43:01,489: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-25 14:43:46,127: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-25 14:43:52,160: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji

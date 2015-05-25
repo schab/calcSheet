@@ -49,13 +49,14 @@ public enum Images {
         }
     }
 
-    Icon getIcon() {
+    public Icon getIcon() {
         return new ImageIcon(getImage());
     }
 
     BufferedImage getImage(int width, int height) {
         return GraphicsUtilities.createThumbnail(getImage(), width, height);
     }
+
 
     public Icon getIcon(int width, int height) {
         return new ImageIcon(getImage(width, height));

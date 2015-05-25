@@ -40,7 +40,7 @@ public class ToolBar extends JToolBar implements ActionListener {
         this.rows = y;
         this.centerPanel = centerPanel;
         jPanel = new FormPanel(cols, rows);
-        jtbElements = new ArrayList<JComponent>();
+        jtbElements = new ArrayList<>();
 
 
         this.initializeToolBarComponents();
@@ -61,8 +61,7 @@ public class ToolBar extends JToolBar implements ActionListener {
 
 
         // first row
-
-        jtbElements.add(0, this.createToolBarButton("New", Images.New.getIcon(20, 20), true, this));
+        jtbElements.add(0, this.createToolBarButton("New", Images.New.getIcon(20,20), true, this));
         jtbElements.add(1, this.createToolBarButton("Open", Images.Open.getIcon(20, 20), true, this));
         jtbElements.add(2, this.createToolBarButton("Save", Images.Save.getIcon(20, 20), true, this));
         jtbElements.add(3, this.createToolBarButton("Print", Images.Print.getIcon(20, 20), true, this));
@@ -161,8 +160,8 @@ public class ToolBar extends JToolBar implements ActionListener {
 
             } catch (NullPointerException r) {
                 MultiOptionPane multiOptionPane = new MultiOptionPane();
-                multiOptionPane.showErrorPane("Wybrane pole jest puste !", "BÅ‚Ä…d");
-                strInfo += ":WystÄ…piÅ‚ bÅ‚Ä…d";
+                multiOptionPane.showErrorPane("Wybrane pole jest puste !", "B³¹d");
+                strInfo += ":Wyst¹pi³ b³¹d";
             }
 
         }
@@ -190,7 +189,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                 }
             }
 
-            strInfo = "RozpoczÄ™to drukowanie arkusza";
+            strInfo = "Rozpoczêto drukowanie arkusza";
         }
 
 
@@ -205,7 +204,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                     spreadSheet.repaint();
 
                 }
-            strInfo = "Czcionka wybranych komÃ³rek zostaÅ‚a zmieniona";
+                strInfo = "Czcionka wybranych komórek zosta³a zmieniona";
             }
 
 
@@ -220,7 +219,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                 spreadSheet.repaint();
             }
 
-            strInfo = "WielkoÅ›Ä‡ czcionki wybranych komÃ³rek zostaÅ‚a zmieniona";
+            strInfo = "Wielkoœæ czcionki wybranych komórek zosta³a zmieniona";
 
         }
 
@@ -235,7 +234,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                     spreadSheet.repaint();
                     isBold = false;
                 }
-                strInfo = "Czcionka wybranych komÃ³rek nie jest juÅ¼ pogrubiona";
+                strInfo = "Czcionka wybranych komórek nie jest ju¿ pogrubiona";
 
             } else {
                 for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
@@ -247,7 +246,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                     spreadSheet.repaint();
                     isBold = true;
                 }
-                strInfo = "Czcionka wybranych komÃ³rek zostaÅ‚a pogrubiona";
+                strInfo = "Czcionka wybranych komórek zosta³a pogrubiona";
 
             }
 
@@ -265,7 +264,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                     spreadSheet.repaint();
                     isItalic = false;
                 }
-                strInfo = "Czcionka wybranych komÃ³rek nie jest juÅ¼ pochylona";
+                strInfo = "Czcionka wybranych komórek nie jest ju¿ pochylona";
 
             } else {
                 for (int ii = 0; ii < spreadSheet._selection.length; ii++) {
@@ -277,7 +276,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                     spreadSheet.repaint();
                     isItalic = true;
                 }
-                strInfo = "Czcionka wybranych komÃ³rek zostaÅ‚a pochylona";
+                strInfo = "Czcionka wybranych komórek zosta³a pochylona";
 
             }
         }
@@ -292,7 +291,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                     sc.setTextAligment(SwingConstants.LEFT);
 
                 }
-            strInfo = "WyrÃ³wnanie komÃ³rek do lewej";
+            strInfo = "Wyrównanie komórek do lewej";
             spreadSheet.repaint();
         }
 
@@ -305,7 +304,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                     sc.setTextAligment(SwingConstants.CENTER);
 
                 }
-            strInfo = "WyrÃ³wnanie komÃ³rek do Å›rodka";
+            strInfo = "Wyrównanie komórek do œrodka";
 
             spreadSheet.repaint();
         }
@@ -317,7 +316,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                     SheetCell sc = (SheetCell) spreadSheet._selection[ii];
                     sc.setTextAligment(SwingConstants.RIGHT);
                 }
-            strInfo = "WyrÃ³wnanie komÃ³rek do prawej";
+            strInfo = "Wyrównanie komórek do prawej";
 
             spreadSheet.repaint();
         }
@@ -333,7 +332,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                         SheetCell sc = (SheetCell) spreadSheet._selection[ii];
                         sc.setBackground(col);
                     }
-                strInfo = "Kolor tÅ‚a wybranych komÃ³rek zostaÅ‚ zmieniony";
+                strInfo = "Kolor t³a wybranych komórek zosta³ zmieniony";
 
                 spreadSheet.repaint();
             }
@@ -350,7 +349,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                         SheetCell sc = (SheetCell) spreadSheet._selection[ii];
                         sc.setForeground(col);
                     }
-                strInfo = "Kolor czcionki wybranych komÃ³rek zostaÅ‚ zmieniony";
+                strInfo = "Kolor czcionki wybranych komórek zosta³ zmieniony";
                 spreadSheet.repaint();
             }
 
@@ -364,9 +363,9 @@ public class ToolBar extends JToolBar implements ActionListener {
                     SheetCell sc = (SheetCell) spreadSheet._selection[ii];
                     sum += new Double(sc.getValue().toString());
                 }
-                strInfo = "Obliczono sumÄ™ zaznaczonych komÃ³rek rÃ³wnÄ…:"+sum;
+                strInfo = "Obliczono sumê zaznaczonych komórek równ¹:"+sum;
 
-                multiOptionPane.showErrorPane("Suma zaznaczonych komÃ³rek := " + sum, " Wynik sumy");
+                multiOptionPane.showErrorPane("Suma zaznaczonych komórek := " + sum, " Wynik sumy");
             }
         }
 
@@ -379,7 +378,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                     spreadSheet.setValueAt(String.valueOf(wynikKomorki),sc.row,sc.column);
 
                 }
-                strInfo = "Obliczono wartoÅ›Ä‡ sinus zaznaczonych komÃ³rek";
+                strInfo = "Obliczono wartoœæ sinus zaznaczonych komórek";
 
             }
         }
@@ -392,7 +391,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                     double wynikKomorki = Math.cos(new Double(sc.getValue().toString()));
                     spreadSheet.setValueAt(String.valueOf(wynikKomorki),sc.row,sc.column);
                 }
-                strInfo = "Obliczono wartoÅ›Ä‡ cos zaznaczonych komÃ³rek";
+                strInfo = "Obliczono wartoœæ cos zaznaczonych komórek";
 
             }
         }
@@ -406,7 +405,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                     spreadSheet.setValueAt(String.valueOf(wynikKomorki),sc.row,sc.column);
 
                 }
-                strInfo = "Obliczono wartoÅ›Ä‡ tangens zaznaczonych komÃ³rek";
+                strInfo = "Obliczono wartoœæ tangens zaznaczonych komórek";
 
             }
         }
@@ -420,7 +419,7 @@ public class ToolBar extends JToolBar implements ActionListener {
                     spreadSheet.setValueAt(String.valueOf(ctg),sc.row,sc.column);
 
                 }
-                strInfo = "Obliczono wartoÅ›Ä‡ cotangens zaznaczonych komÃ³rek";
+                strInfo = "Obliczono wartoœæ cotangens zaznaczonych komórek";
             }
         }
 

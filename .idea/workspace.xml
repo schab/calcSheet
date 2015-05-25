@@ -2,74 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f1c5771-5221-4dfb-96d0-e8e5a41905b5" name="Default" comment="New G">
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\CalcSheet\Gui\CenterPanel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\CalcSheet\Gui\CenterPanel$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\CalcSheet\Gui\CenterPanel$TabComponent$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\CalcSheet\Gui\CenterPanel$TabComponent$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\CalcSheet\Gui\CenterPanel$TabComponent$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\CalcSheet\Gui\CenterPanel$TabComponent$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\CalcSheet\Gui\FontChooserComboBox$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\CalcSheet\MainFrame$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\com\intellij\uiDesigner\core\AbstractLayout.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\com\intellij\uiDesigner\core\DimensionInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\com\intellij\uiDesigner\core\GridConstraints.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\com\intellij\uiDesigner\core\GridLayoutManager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\com\intellij\uiDesigner\core\HorizontalInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\com\intellij\uiDesigner\core\LayoutState.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\com\intellij\uiDesigner\core\Spacer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\com\intellij\uiDesigner\core\SupportCode$TextWithMnemonic.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\com\intellij\uiDesigner\core\SupportCode.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\com\intellij\uiDesigner\core\Util.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\out\production\calcSheets\com\intellij\uiDesigner\core\VerticalInfo.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/JXGraph/AxisChoose$1.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/JXGraph/AxisChoose$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/JXGraph/AxisChoose.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/JXGraph/AxisChoose.class" />
+      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\.classpath" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\.project" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Kacper\Documents\GitHub\calcSheets\calcSheets.userlibraries" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/CellMenu.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/CellMenu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/CenterPanel$PopMenu.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/CenterPanel$PopMenu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/CenterPanel$TabComponent.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/CenterPanel$TabComponent.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/CenterPanel.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/CenterPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Functions/Colors.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Functions/Colors.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooser$1.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooser$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooser$DialogCancelAction.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooser$DialogCancelAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooser$DialogOKAction.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooser$DialogOKAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooser$ListSearchTextFieldDocumentHandler$ListSelector.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooser$ListSearchTextFieldDocumentHandler$ListSelector.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooser$ListSearchTextFieldDocumentHandler.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooser$ListSearchTextFieldDocumentHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooser$ListSelectionHandler.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooser$ListSelectionHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooser$TextFieldFocusHandlerForTextSelection.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooser$TextFieldFocusHandlerForTextSelection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooser$TextFieldKeyHandlerForListSelectionUpDown.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooser$TextFieldKeyHandlerForListSelectionUpDown.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooser.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooserComboBox$FontChooserComboBoxEditor$AutoCompletionDocument.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooserComboBox$FontChooserComboBoxEditor$AutoCompletionDocument.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooserComboBox$FontChooserComboBoxEditor.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooserComboBox$FontChooserComboBoxEditor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooserComboBox$FontChooserComboBoxRenderer.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooserComboBox$FontChooserComboBoxRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooserComboBox$Item.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooserComboBox$Item.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooserComboBox.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FontChooserComboBox.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Functions/Fonts.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Functions/Fonts.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FormPanel.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FormPanel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FormulaBar.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/FormulaBar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/JXGraph/GraphPoints.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/JXGraph/GraphPoints.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Functions/Images.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Functions/Images.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/Interpreter$EmptyReference.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/Interpreter$EmptyReference.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/Interpreter$EndFormula.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/Interpreter$EndFormula.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/Interpreter$InterpreterEvent.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/Interpreter$InterpreterEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/Interpreter$SyntagmaMismatch.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/Interpreter$SyntagmaMismatch.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/Interpreter$SyntaxError.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/Interpreter$SyntaxError.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/Interpreter.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/Interpreter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/LogPanel.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/LogPanel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/MainFrame$1.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/MainFrame$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/MainFrame.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/MainFrame.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/JXGraph/MainGraph.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/JXGraph/MainGraph.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/MenuBar.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/MenuBar.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/MultiOptionPane.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/MultiOptionPane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Functions/RandomNumber.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Functions/RandomNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/SheetCell.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/SheetCell.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/SpreadSheet$1.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/SpreadSheet$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/SpreadSheet$CellRenderer.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/SpreadSheet$CellRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/SpreadSheet.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/SpreadSheet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/SpreadSheetModel.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/SheetComponent/SpreadSheetModel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/ToolBar.class" afterPath="$PROJECT_DIR$/out/production/calcSheets/CalcSheet/Gui/ToolBar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/MainGraph.java" afterPath="$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/MainGraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.form" afterPath="$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.java" afterPath="$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CalcSheet/Functions/Images.java" afterPath="$PROJECT_DIR$/src/CalcSheet/Functions/Images.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CalcSheet/Gui/ToolBar.java" afterPath="$PROJECT_DIR$/src/CalcSheet/Gui/ToolBar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calcSheets.iml" afterPath="$PROJECT_DIR$/calcSheets.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projektLog.log" afterPath="$PROJECT_DIR$/projektLog.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -94,21 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CellMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CalcSheet/SheetComponent/CellMenu.java">
+      <file leaf-file-name="SpreadSheetModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CalcSheet/SheetComponent/SpreadSheetModel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="144" column="8" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AxisChoose.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.form">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,11 +61,51 @@
         <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/ToolBar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="159" column="61" selection-start-line="159" selection-start-column="55" selection-end-line="159" selection-end-column="61" />
+              <caret line="74" column="67" selection-start-line="74" selection-start-column="67" selection-end-line="74" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AxisChoose.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainGraph.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/MainGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+              <folding>
+                <element signature="method#createScene#0;class#MainGraph#0" expanded="false" />
+                <element signature="method#initFX#0;class#MainGraph#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphPoints.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/GraphPoints.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AxisChoose.form" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -136,26 +119,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AxisChoose.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.java">
+      <file leaf-file-name="FormPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/FormPanel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainGraph.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/MainGraph.java">
+      <file leaf-file-name="Images.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CalcSheet/Functions/Images.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.34871796">
-              <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#createScene#0;class#MainGraph#0" expanded="false" />
-                <element signature="method#initFX#0;class#MainGraph#0" expanded="false" />
+                <element signature="e#1128#1129#0" expanded="true" />
+                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#1409#1410#0" expanded="true" />
+                <element signature="e#1457#1458#0" expanded="true" />
+                <element signature="e#1644#1645#0" expanded="true" />
+                <element signature="e#1705#1706#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CalcSheet/MainFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="89" column="33" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -210,14 +208,17 @@
         <option value="$PROJECT_DIR$/src/CalcSheet/Gui/Graph/GraphPoints.java" />
         <option value="$PROJECT_DIR$/src/CalcSheet/SheetComponent/SpreadSheet.java" />
         <option value="$PROJECT_DIR$/src/CalcSheet/Gui/MultiOptionPane.java" />
-        <option value="$PROJECT_DIR$/src/CalcSheet/MainFrame.java" />
         <option value="$PROJECT_DIR$/src/CalcSheet/Gui/CenterPanel.java" />
         <option value="$PROJECT_DIR$/projektLog.log" />
-        <option value="$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.form" />
         <option value="$PROJECT_DIR$/src/CalcSheet/SheetComponent/CellMenu.java" />
+        <option value="$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/MainGraph.java" />
+        <option value="$PROJECT_DIR$/src/CalcSheet/MainFrame.java" />
+        <option value="$PROJECT_DIR$/src/CalcSheet/Gui/LogPanel.java" />
+        <option value="$PROJECT_DIR$/src/CalcSheet/Gui/FormPanel.java" />
+        <option value="$PROJECT_DIR$/src/CalcSheet/Functions/Images.java" />
         <option value="$PROJECT_DIR$/src/CalcSheet/Gui/ToolBar.java" />
         <option value="$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.java" />
-        <option value="$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/MainGraph.java" />
+        <option value="$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.form" />
       </list>
     </option>
   </component>
@@ -265,7 +266,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -313,12 +313,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="swingx-all-1.6.5.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <option name="myItemId" value="CalcSheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -331,20 +335,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CalcSheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JXGraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AxisChoose" />
+              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calcSheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calcSheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CalcSheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JXGraph" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -376,11 +423,11 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="CalcSheet.Gui.JXGraph.MainGraph" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -622,33 +669,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33169934" sideWeight="0.47579426" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45086706" sideWeight="0.5385779" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.48184568" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38235295" sideWeight="0.4614221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18456884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18456884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33169934" sideWeight="0.47579426" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38235295" sideWeight="0.4614221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -678,32 +725,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/MainGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#createScene#0;class#MainGraph#0" expanded="false" />
-            <element signature="method#initFX#0;class#MainGraph#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CalcSheet/SheetComponent/CellMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="109" column="39" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/ToolBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="241" column="0" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -889,13 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/SheetComponent/SheetCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -910,63 +930,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/GraphPoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/SheetComponent/SpreadSheet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.448276">
-          <caret line="302" column="37" selection-start-line="302" selection-start-column="37" selection-end-line="302" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/SheetComponent/SpreadSheetModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.243243">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/MultiOptionPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/MenuBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/LogPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/FormulaBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/FormPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
@@ -994,32 +958,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/FormulaBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/MultiOptionPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CalcSheet/SheetComponent/CellMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="144" column="8" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/SheetComponent/SheetCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.form">
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/SheetComponent/SpreadSheet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="302" column="37" selection-start-line="302" selection-start-column="37" selection-end-line="302" selection-end-column="37" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="ui-designer">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/ToolBar.java">
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/LogPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="159" column="61" selection-start-line="159" selection-start-column="55" selection-end-line="159" selection-end-column="61" />
+          <caret line="110" column="29" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/FormPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="89" column="33" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/SheetComponent/SpreadSheetModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,23 +1043,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.java">
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Functions/Images.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+          <folding>
+            <element signature="e#1128#1129#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
+            <element signature="e#1644#1645#0" expanded="true" />
+            <element signature="e#1705#1706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/ToolBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="67" selection-start-line="74" selection-start-column="67" selection-end-line="74" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/GraphPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/MainGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.34871796">
+        <state vertical-scroll-proportion="0.0">
           <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#createScene#0;class#MainGraph#0" expanded="false" />
             <element signature="method#initFX#0;class#MainGraph#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcSheet/Gui/JXGraph/AxisChoose.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,7 +1158,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>calcApp</last-edited>
+          <last-edited>calcSheets</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1116,6 +1171,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
