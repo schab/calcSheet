@@ -58,3 +58,16 @@ INFO  : 2015-05-25 23:42:19,363: class CalcSheet.MainFrame:: Uruchomiono aplikac
 INFO  : 2015-05-25 23:42:33,081: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji
 INFO  : 2015-05-25 23:43:32,230: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
 INFO  : 2015-05-25 23:43:44,937: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji
+INFO  : 2015-05-26 00:19:45,563: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-26 00:19:49,128: class CalcSheet.Gui.CenterPanel:: Wygenerowanie przyk³adowych wartoœci arkusza
+INFO  : 2015-05-26 00:19:59,618: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji
+INFO  : 2015-05-26 00:25:31,294: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-26 00:25:35,074: class CalcSheet.Gui.CenterPanel:: Wygenerowanie przyk³adowych wartoœci arkusza
+INFO  : 2015-05-26 00:25:40,601: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-26 00:25:45,677: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji
+INFO  : 2015-05-26 00:31:03,534: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-26 00:31:20,692: class CalcSheet.Gui.CenterPanel:: Dodano nowy arkusz
+INFO  : 2015-05-26 00:31:34,463: class CalcSheet.Gui.CenterPanel:: Dodano nowy arkusz
+INFO  : 2015-05-26 00:31:57,966: class CalcSheet.Gui.CenterPanel:: Wygenerowanie przyk³adowych wartoœci arkusza
+INFO  : 2015-05-26 00:32:44,316: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-26 00:33:03,712: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji

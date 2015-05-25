@@ -26,7 +26,7 @@ public class MainFrame extends JFrame {
     private static final String jtbColumns =   "10px,24px,5px,24px,5px,24px,5px,24px,5px,10px,5px,210px,5px,50px,5px, " +
                                                 "5px,5px,24px,5px,24px,5px,10px,5px,24px,5px,24px,5px,24px,5px," +
                                                 "10px,5px,24px,5px,24px,5px," +
-                                                "10px,5px,24px,5px,24px,5px,24px,5px,24px,5px,24px,5px,24px,5px,10px,5px,24px,5px,pref:grow,10px";
+                                                "10px,5px,24px,5px,24px,5px,24px,5px,24px,5px,24px,5px,10px,5px,24px,5px,pref:grow,10px";
 
     private static final String jtbRows    =   "8px,24px,6px,24px,8px";
 

@@ -26,11 +26,15 @@ public class MultiOptionPane {
                 columns = Integer.parseInt(jtfCol.getText());
                 rows = Integer.parseInt(jtfRow.getText());
 
-                if(columns <= 0 || rows <= 0)
-                    showErrorPane("Wprowadzono błędną wartość, mniejszą lub równą zero !","Błąd!");
-
-                else if (columns >=1000 && rows >= 1000){
-                   showErrorPane("Wprowadzona wartość jest zbyt duża !","Błąd");
+                if(columns <= 0 || rows <= 0) {
+                    showErrorPane("Wprowadzono błędną wartość, mniejszą lub równą zero, utworzono arkusz 1x1 !", "Błąd!");
+                    columns = 1;
+                    rows = 1;
+                }
+                else if ((columns >1000 && rows > 1000) || columns >= 10000 || rows >= 10000 ){
+                   showErrorPane("Wprowadzona wartość jest zbyt duża, ustalono arkusz 1000x1000!","Błąd");
+                   columns = 1000;
+                   rows = 1000;
                 }
 
             }catch(NumberFormatException e){
