@@ -4,6 +4,7 @@ package CalcSheet.Gui.JXGraph;
  * Created by Kacper on 2015-05-24.
  */
 
+
 import javafx.application.Platform;
 import javafx.embed.swing.JFXPanel;
 import javafx.scene.Scene;

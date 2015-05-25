@@ -14,3 +14,7 @@ INFO  : 2015-05-25 11:19:32,949: class CalcSheet.SheetComponent.CellMenu:: Utwor
 INFO  : 2015-05-25 11:19:45,312: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
 INFO  : 2015-05-25 11:19:55,151: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
 INFO  : 2015-05-25 11:20:11,695: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji
+INFO  : 2015-05-25 11:22:07,244: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-25 11:22:10,361: class CalcSheet.Gui.CenterPanel:: Wygenerowanie przyk³adowych wartoœci arkusza
+INFO  : 2015-05-25 11:22:24,537: class CalcSheet.Gui.ToolBar:: Utworzenie grafu
+INFO  : 2015-05-25 11:22:28,911: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji

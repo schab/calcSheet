@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="lib">
+    <archive path="C:/Users/Kacper/Documents/GitHub/calcSheets/lib/l2fprod-common-totd-7_3.jar" />
+    <archive path="C:/Users/Kacper/Documents/GitHub/calcSheets/lib/l2fprod-common-tasks.jar" />
+    <archive path="C:/Users/Kacper/Documents/GitHub/calcSheets/lib/log4j-1.2.11.jar" />
+    <archive path="C:/Users/Kacper/Documents/GitHub/calcSheets/lib/Ikony.zip" />
+    <archive path="C:/Users/Kacper/Documents/GitHub/calcSheets/lib/swingx-all-1.6.5.jar" />
+    <archive path="C:/Users/Kacper/Documents/GitHub/calcSheets/lib/forms-1.2.0.jar" />
+  </library>
+</eclipse-userlibraries>
+
