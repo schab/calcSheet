@@ -71,3 +71,27 @@ INFO  : 2015-05-26 00:31:34,463: class CalcSheet.Gui.CenterPanel:: Dodano nowy a
 INFO  : 2015-05-26 00:31:57,966: class CalcSheet.Gui.CenterPanel:: Wygenerowanie przyk³adowych wartoœci arkusza
 INFO  : 2015-05-26 00:32:44,316: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
 INFO  : 2015-05-26 00:33:03,712: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji
+INFO  : 2015-05-26 08:35:54,488: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-26 08:36:14,888: class CalcSheet.Gui.CenterPanel:: Dodano nowy arkusz
+INFO  : 2015-05-26 08:36:39,315: class CalcSheet.Gui.CenterPanel:: Dodano nowy arkusz
+INFO  : 2015-05-26 08:36:43,853: class CalcSheet.Gui.CenterPanel:: Wygenerowanie przyk³adowych wartoœci arkusza
+INFO  : 2015-05-26 08:37:21,967: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-26 08:37:39,451: class CalcSheet.Gui.CenterPanel:: Arkusz zosta³ usuniêty
+INFO  : 2015-05-26 08:38:04,929: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-26 08:38:41,230: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-26 08:38:56,321: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-26 08:39:38,419: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji
+INFO  : 2015-05-26 08:39:55,260: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-26 08:40:07,073: class CalcSheet.Gui.CenterPanel:: Dodano nowy arkusz
+INFO  : 2015-05-26 08:40:23,843: class CalcSheet.Gui.ToolBar:: Obliczono wartoœæ sinus zaznaczonych komórek
+INFO  : 2015-05-26 08:40:31,766: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-26 08:40:50,074: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-26 08:41:13,083: class CalcSheet.Gui.ToolBar:: Obliczono sumê zaznaczonych komórek równ¹:9.297561126569914
+INFO  : 2015-05-26 08:41:14,736: class CalcSheet.Gui.ToolBar:: Obliczono wartoœæ tangens zaznaczonych komórek
+INFO  : 2015-05-26 08:41:15,752: class CalcSheet.Gui.ToolBar:: Obliczono wartoœæ cotangens zaznaczonych komórek
+INFO  : 2015-05-26 08:42:23,794: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji
+INFO  : 2015-05-26 10:49:49,745: class CalcSheet.MainFrame:: Uruchomiono aplikacje Projekt zespo³owy: calcSheet
+INFO  : 2015-05-26 10:50:04,423: class CalcSheet.Gui.CenterPanel:: Wygenerowanie przyk³adowych wartoœci arkusza
+INFO  : 2015-05-26 10:50:20,694: class CalcSheet.Gui.CenterPanel:: Dodano nowy arkusz
+INFO  : 2015-05-26 10:51:17,626: class CalcSheet.SheetComponent.CellMenu:: Utworzenie grafu
+INFO  : 2015-05-26 10:51:46,255: class CalcSheet.MainFrame$1:: Wy³¹czenie aplikacji

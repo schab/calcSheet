@@ -123,7 +123,7 @@ public class ToolBar extends JToolBar implements ActionListener {
         String strInfo = "";
 
 
-        if (e.getSource().equals(jtbElements.get(25))) {
+        if (e.getSource().equals(jtbElements.get(24))) {
 
             GraphPoints<Integer, Integer, Double> graphPoints;
             java.util.List<GraphPoints<Integer, Integer, Double>> points = new ArrayList<>();
